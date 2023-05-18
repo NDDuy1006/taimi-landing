@@ -1,6 +1,6 @@
 global-variables:
   environment: &default_environment
-    REMOTE_URL: https://git.dision.office:3000/dso777/taimi-landing.git
+    REMOTE_URL: https://git.dision.office/dso777/taimi-landing.git
     WORK_DIRECTORY: /data/drone/taimi-landing
     LOCAL_SERVER_DIRECTORY: /data/shared/taimi-landing
 
@@ -21,3 +21,9 @@ steps:
     environment: *default_environment
     commands:
       - git clone $${REMOTE_URL} $${WORK_DIRECTORY}
+      - cd $${WORK_DIRECTORY}
+      
+- name: Syncing
+    environment: *default_environment
+    commands:
+      - rsync -av $${WORK_DIRECTORY}/out/* dision:/data/shared/taimi-landing

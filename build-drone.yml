@@ -25,4 +25,4 @@ steps:
   - name: Syncing
     environment: *default_environment
     commands:
-      - rsync -av $${WORK_DIRECTORY}/out/* dision:/data/shared/taimi-landing
+      - rsync -av $${WORK_DIRECTORY}/out/* dision.host:/data/shared/taimi-landing/

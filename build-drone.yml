@@ -21,9 +21,8 @@ steps:
     environment: *default_environment
     commands:
       - git clone $${REMOTE_URL} $${WORK_DIRECTORY}
-      - cd $${WORK_DIRECTORY}
-      
-- name: Syncing
+      - cd $${WORK_DIRECTORY}    
+  - name: Syncing
     environment: *default_environment
     commands:
       - rsync -av $${WORK_DIRECTORY}/out/* dision:/data/shared/taimi-landing

@@ -12,7 +12,7 @@ clone:
   disable: true
 
 steps:
-  - name: Clean
+  - name: Cleannn
     environment: *default_environment
     commands:
       - rm -rf $${WORK_DIRECTORY}

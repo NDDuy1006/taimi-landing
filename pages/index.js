@@ -87,7 +87,7 @@ const Home = ({ frontmatter }) => {
         <div className="grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
           {feature.darkCards.map((item, i) => (
             <div
-              className="feature-card rounded-xl bg-[#6A7481] p-4 pt-0 border-solid border-2"
+              className="feature-card rounded-xl bg-[#6A7481] p-4 pt-0"
               key={`card-${i}`}
             >
               <div className="mt-4 text-left text-[white]">

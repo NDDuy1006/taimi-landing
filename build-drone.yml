@@ -1,0 +1,28 @@
+global-variables:
+  environment: &default_environment
+    REMOTE_URL: https://git.dision.office/dso777/taimi-landing.git
+    WORK_DIRECTORY: /data/drone/taimi-landing
+    LOCAL_SERVER_DIRECTORY: /data/shared/taimi-landing
+
+kind: pipeline
+type: exec
+name: step
+
+clone:
+  disable: true
+
+steps:
+  - name: Clean
+    environment: *default_environment
+    commands:
+      - rm -rf $${WORK_DIRECTORY}
+      - rm -rf $${LOCAL_SERVER_DIRECTORY}
+  - name: Cloning
+    environment: *default_environment
+    commands:
+      - git -c http.sslVerify=false clone $${REMOTE_URL} $${WORK_DIRECTORY}
+      - cd $${WORK_DIRECTORY}    
+  - name: Syncing
+    environment: *default_environment
+    commands:
+      - rsync -av $${WORK_DIRECTORY}/out/* dision.host:/data/shared/taimi-landing/

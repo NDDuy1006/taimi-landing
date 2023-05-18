@@ -1,0 +1,40 @@
+{
+  "site": {
+    "title": "Taimi landing page",
+    "base_url": "/",
+    "favicon": "/images/dision_tech.svg",
+    "logo": "/images/dision_logo_black.svg",
+    "logo_width": "160",
+    "logo_height": "48",
+    "logo_text": "Distion Tech"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": [{
+    "enable": true,
+    "label": "Get a demo",
+    "link": "/#"
+  },
+  {
+    "enable": true,
+    "label": "Sign up",
+    "link": "/#"
+  }],
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
+    "copyright": "Designed and Developed by [dision.tech](https://dision.tech/)"
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "",
+    "meta_description": "A SAAS template for nextjs"
+  }
+}

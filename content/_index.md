@@ -1,0 +1,111 @@
+---
+banner:
+  title: Time-tracking solution is productivity foundation
+  content: Boost **productivity** and **efficiency** with our powerful time and task tracking application
+  content2: From clocking hours to managing personnel, our comprehensive app covers every aspect of efficient business operations, empowering you to achieve operational excellence.
+  image: /images/banner-art.svg
+  button:
+    enable: true
+    label: "Get a demo"
+    link: "/contact"
+
+# feature
+feature: 
+  title: Make every single working section matter
+  subTitle: Taimi empowers companies and individuals to optimize their work management and unlock higher levels of productivity
+  features:
+  - name: "Productivity tools"
+    content: "Achieve your centralized hub for seamlessly tracking tasks, projects, and goals. Taimi also ensures timely completion of deadlines, efficient time management, and steadfast progress monitoring to keep you on the right path."
+  - name: "Productivity tools"
+    content: "Achieve your centralized hub for seamlessly tracking tasks, projects, and goals. Taimi also ensures timely completion of deadlines, efficient time management, and steadfast progress monitoring to keep you on the right path."
+  - name: "Productivity tools"
+    content: "Achieve your centralized hub for seamlessly tracking tasks, projects, and goals. Taimi also ensures timely completion of deadlines, efficient time management, and steadfast progress monitoring to keep you on the right path."
+  darkCards:
+  - title: "60 seconds"
+    subTitle: "to set up"
+    buttonText: "Download"
+    href: "#"
+  - title: "18M+ hours"
+    subTitle: "total time tracking"
+    buttonText: "Explore features"
+    href: "#"
+  - title: "200+ projects"
+    subTitle: "management"
+    buttonText: "Explore features"
+    href: "#"
+  - title: "150M tasks"
+    subTitle: "completed"
+    buttonText: "Explore features"
+    href: "#"
+
+# solotions
+solution:
+  title: "A multi-benefit in one solution"
+  subTitle: "Unlock multiple projects control in a single virtual workplace with Taimi"
+  solutions:
+  - title: "Productivity tools"
+    content: "Everyone is more aware of how activities with specific project tasks"
+  - title: "Productivity tools"
+    content: "Everyone is more aware of how activities with specific project tasks"
+  - title: "Productivity tools"
+    content: "Everyone is more aware of how activities with specific project tasks"
+# services
+services:
+  - title: "It is the most advanced digital marketing and it company."
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+    images:
+      - "/images/service-slide-1.png"
+      - "/images/service-slide-2.png"
+      - "/images/service-slide-3.png"
+    button:
+      enable: true
+      label: Check it out
+      link: /contact
+
+  - title: "It is a privately owned Information and cyber security company"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+    images: 
+      - "/images/service-slide-1.png"
+    button:
+      enable: true
+      label: Check it out
+      link: /contact
+  
+  - title: "It’s a team of experienced and skilled people with distributions"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+    images:
+      - "/images/service-slide-1.png"
+      - "/images/service-slide-2.png"
+      - "/images/service-slide-3.png"
+    button:
+      enable: true
+      label: Check it out
+      link: /contact
+
+  - title: "A company standing different from others"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+    images:
+      - "/images/service-slide-1.png"
+      - "/images/service-slide-2.png"
+      - "/images/service-slide-3.png"
+    button:
+      enable: true
+      label: Check it out
+      link: /contact
+
+# workflow
+workflow: 
+  title: "Experience the best workflow with us"
+  image: "/images/banner.svg"
+  description: ""
+
+# call_to_action
+call_to_action:
+  title: Let's get started. It's free
+  content: Unlock multiple projects control in a single virtual workplace with Taimi
+  image: '/images/cta.svg'
+  button:
+    enable: true
+    label: "Try now"
+    link: "#"
+---

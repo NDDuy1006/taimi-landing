@@ -1,0 +1,65 @@
+{
+  "main": [
+    {
+      "name": "Features",
+      "url": "#"
+    },
+    {
+      "name": "Why choose use?",
+      "url": "#"
+    },
+    {
+      "name": "Download",
+      "url": "#"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Company",
+      "menu": [
+        {
+          "text": "Pricing",
+          "url": "/pricing"
+        },
+        {
+          "text": "Quick Start",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "name": "Product",
+      "menu": [
+        {
+          "text": "Features",
+          "url": "#"
+        },
+        {
+          "text": "Platform",
+          "url": "#"
+        },
+        {
+          "text": "Pricing",
+          "url": "/pricing"
+        }
+      ]
+    },
+    {
+      "name": "Support",
+      "menu": [
+        {
+          "text": "FAQ",
+          "url": "#"
+        },
+        {
+          "text": "Privacy Policy",
+          "url": "#"
+        },
+        {
+          "text": "Terms & Conditions",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}

@@ -83,34 +83,36 @@ const Home = ({ frontmatter }) => {
           </div>
         </div>
         {/* dark card */}
-        <div className="container py-8">
-          <div className="grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
-            {feature.darkCards.map((item, i) => (
-              <div
-                className="feature-card rounded-xl bg-[#6A7481] p-4 pt-0"
-                key={`card-${i}`}
-              >
-                <div className="mt-4 text-left text-[white]">
-                  <div className="text-3xl">{item.title}</div>
-                  <div className="my-4">{item.subTitle}</div>
-                  <Link
-                    className="btn btn-seccondary z-0 px-2 py-3"
-                    href={item.href}
-                  >
-                    <div className="flex flex-row relative pr-6">
-                      {item.buttonText}
-                      <Image
-                        className="absolute top-[-2px] right-0"
-                        src={"/images/btn-icon.png"}
-                        width={14}
-                        height={16}
-                        alt="btn-icon"
-                      />
-                    </div>
-                  </Link>
+        <div className="mt-8 bg-theme-light/10">
+          <div className="container py-8">
+            <div className="grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
+              {feature.darkCards.map((item, i) => (
+                <div
+                  className="feature-card rounded-xl bg-white p-4 pt-0"
+                  key={`card-${i}`}
+                >
+                  <div className="mt-4 text-left text-[black]">
+                    <div className="text-3xl">{item.title}</div>
+                    <div className="my-4">{item.subTitle}</div>
+                    <Link
+                      className="btn btn-seccondary z-0 px-2 py-3"
+                      href={item.href}
+                    >
+                      <div className="flex flex-row relative pr-6">
+                        {item.buttonText}
+                        <Image
+                          className="absolute top-[-2px] right-0"
+                          src={"/images/btn-icon.png"}
+                          width={14}
+                          height={16}
+                          alt="btn-icon"
+                        />
+                      </div>
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -118,17 +120,23 @@ const Home = ({ frontmatter }) => {
       {/* Solutions */}
       <section className="section">
         <div className="container">
-          <div className="row text-center">
+          <div className="text-center relative w-fit mx-auto">
+            <h2 className="text-4xl">{markdownify(solution.title)}</h2>
+            <p className="mt-3 text-primary mx-auto">{solution.subTitle}</p>
+          </div>
+          <div className="row mt-10 text-center">
             <div className="flex flex-col lg:flex-row">
-              <Image
-                className="mx-auto mt-12 lg:w-3/5"
-                src={banner.image}
-                width={750}
-                height={390}
-                alt="banner image"
-                priority
-              />
-              <div className="lg:w-2/5">
+              <div className="lg:w-8/12">
+                <Image
+                  className="w-10/12"
+                  src={solution.images[activeAccordion - 1]}
+                  width={750}
+                  height={390}
+                  alt="banner image"
+                  priority
+                />
+              </div>
+              <div className="lg:w-4/12">
                 {solution.solutions.map((solution, index) => <Accordion
                   activeIndex={activeAccordion}
                   setActiveIndex={setActiveAccordion}

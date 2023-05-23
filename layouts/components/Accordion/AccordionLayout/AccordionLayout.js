@@ -7,12 +7,14 @@ const AccordionLayout = ({ title, children, index, activeIndex, setActiveIndex }
   return (
     <>
       <div onClick={() => handleSetIndex(index)} className='flex w-full justify-between p-2 cursor-pointer'>
-          <div className='flex'>
-              <div className='text-primary font-bold text-xl'>{title}</div>
+        <div className='flex'>
+          <div className={`font-bold text-xl ${activeIndex === index && 'text-theme-light'}`}>
+            {title}
           </div>
-          <div className="flex items-center justify-center">
-              {
-              (activeIndex === index) 
+        </div>
+        <div className="flex items-center justify-center">
+          {
+            (activeIndex === index)
               ? <Image
                 src={"/images/VectorUp.svg"}
                 width={16}
@@ -25,17 +27,20 @@ const AccordionLayout = ({ title, children, index, activeIndex, setActiveIndex }
                 height={16}
                 alt="btn-icon"
               />
-              }
-          </div>
+          }
+        </div>
       </div>
 
       {(activeIndex === index) && (
-          <div className=" text-left shadow-3xl rounded-2xl p-2 text-primary">
-            {children}
-          </div>
+        <div className="text-left shadow-3xl rounded-2xl p-2 text-primary">
+          {children}
+        </div>
       )}
     </>
   );
 };
 
 export default AccordionLayout;
+
+
+//font-bold text-xl

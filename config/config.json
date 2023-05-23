@@ -4,17 +4,16 @@
     "base_url": "/",
     "favicon": "/images/dision_tech.svg",
     "logo": "/images/dision_logo_black.svg",
+    "header_logo": "/images/header-logo.svg",
     "logo_width": "160",
-    "logo_height": "48",
+    "logo_height": "60",
     "logo_text": "Distion Tech"
   },
-
   "settings": {
     "pagination": 4,
     "summary_length": 200,
     "blog_folder": "blogs"
   },
-
   "nav_button": {
     "enable": true,
     "label": "Contact us",
@@ -26,7 +25,6 @@
     "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
     "copyright": "Designed and Developed by [dision.tech](https://dision.tech/)"
   },
-
   "metadata": {
     "meta_author": "",
     "meta_image": "",

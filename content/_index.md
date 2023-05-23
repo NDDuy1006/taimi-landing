@@ -50,9 +50,9 @@ solution:
   - title: "Task management"
     content: "Enable flexible and scalable scrum board management in both vertical and horizontal dimensions. Prioritize your tasks so that you may use your time wisely."
   images:
-    - "/images/service-slide-1.png"
-    - "/images/service-slide-2.png"
-    - "/images/service-slide-3.png"
+    - "/images/solution-communication.png"
+    - "/images/solution-project-health.png"
+    - "/images/solution-task-management.png"
 
 # workflow
 workflow: 

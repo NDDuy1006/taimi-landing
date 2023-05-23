@@ -117,29 +117,29 @@ const Home = ({ frontmatter }) => {
 
       {/* Solutions */}
       <section className="section">
-      <div className="container">
-        <div className="row text-center">
-          <div className="flex flex-col lg:flex-row">
-            <Image
-              className="mx-auto mt-12 lg:w-3/5"
-              src={banner.image}
-              width={750}
-              height={390}
-              alt="banner image"
-              priority
-            />
-            <div className="lg:w-2/5">
-              {solution.solutions.map((solution, index) => <Accordion
-                activeIndex={activeAccordion}
-                setActiveIndex={setActiveAccordion}
-                title={solution.title}
-                content={solution.content}
-                index={index + 1}
-                key={index}
-              />)}
+        <div className="container">
+          <div className="row text-center">
+            <div className="flex flex-col lg:flex-row">
+              <Image
+                className="mx-auto mt-12 lg:w-3/5"
+                src={banner.image}
+                width={750}
+                height={390}
+                alt="banner image"
+                priority
+              />
+              <div className="lg:w-2/5">
+                {solution.solutions.map((solution, index) => <Accordion
+                  activeIndex={activeAccordion}
+                  setActiveIndex={setActiveAccordion}
+                  title={solution.title}
+                  content={solution.content}
+                  index={index + 1}
+                  key={index}
+                />)}
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </section>
 

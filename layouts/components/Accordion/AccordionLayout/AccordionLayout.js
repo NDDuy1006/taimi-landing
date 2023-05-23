@@ -8,7 +8,7 @@ const AccordionLayout = ({ title, children, index, activeIndex, setActiveIndex }
     <>
       <div onClick={() => handleSetIndex(index)} className='flex w-full justify-between p-2 cursor-pointer'>
           <div className='flex'>
-              <div className='text-dark font-bold text-xl'>{title}</div>
+              <div className='text-primary font-bold text-xl'>{title}</div>
           </div>
           <div className="flex items-center justify-center">
               {

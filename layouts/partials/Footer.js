@@ -10,17 +10,17 @@ const Footer = () => {
   const { copyright, footer_content } = config.params;
   const { footer } = menu;
   return (
-    <footer className="section bg-theme-light pb-0">
+    <footer className="section bg-white pb-0">
       <div className="container">
         {/* footer menu */}
         <div className="row">
           {footer.map((col) => {
             return (
-              <div className="mb-12 sm:col-6 lg:col-3" key={col.name}>
+              <div className="text-primary mb-12 sm:col-6 lg:col-3" key={col.name}>
                 {markdownify(col.name, "h2", "h4")}
                 <ul className="mt-6">
                   {col?.menu.map((item) => (
-                    <li className="mb-1 text-dark" key={item.text}>
+                    <li className="mb-1 text-[#4B555D]" key={item.text}>
                       <Link href={item.url} rel="">
                         {item.text}
                       </Link>

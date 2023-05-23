@@ -1,11 +1,13 @@
 import Cta from "@layouts/components/Cta";
 import Image from "next/image";
+import { markdownify } from "@lib/utils/textConverter";
 
 function Features({ data }) {
-  const { call_to_action, features } = data.frontmatter;
+  const { call_to_action, features, title } = data.frontmatter;
 
   return (
     <>
+      {markdownify(title, "h1", "h2 mt-8 text-center")}
       {features.map((feature, index) => {
         const isOdd = index % 2 > 0;
         return (

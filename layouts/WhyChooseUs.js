@@ -12,7 +12,7 @@ function Features({ data }) {
         <h1>Time tracking <span className="text-theme-light">cloud-based solution</span> available anywhere - everything</h1>
         <Image className="mx-auto mt-8" src={'/images/Platform.png'} width={852} height={72} alt="Platform" />
       </section>
-      
+
       {/* Feedback */}
       <section className="section bg-[#F4F4F6]">
         <div className="container">
@@ -25,7 +25,7 @@ function Features({ data }) {
               {feedback.feedbacks.map((feedback, index) =>
                 <div className="flex flex-col w-[220px] mb-4" key={index}>
                   <div className="flex flex-row">
-                    <Image src={feedback.avatar} width={44} height={44} />
+                    <Image alt="happy-client" src={feedback.avatar} width={44} height={44} />
                     <div className="text-left ml-2">
                       <h3 className="text-xl">{feedback.name}</h3>
                       <p className="text-xs text-[#4B555D]">{feedback.title}</p>

@@ -39,7 +39,7 @@ const Home = ({ frontmatter }) => {
                 </div>
               </div>
               <Image
-                className="mx-auto mt-12 lg:w-[52%]"
+                className="mx-auto lg:w-[52%]"
                 src={banner.image}
                 width={750}
                 height={390}

@@ -38,8 +38,7 @@ module.exports = {
       "2xl": "1536px",
     },
     container: {
-      center: true,
-      padding: "2rem",
+      center: true
     },
     extend: {
       colors: {

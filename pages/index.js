@@ -20,12 +20,16 @@ const Home = ({ frontmatter }) => {
       {/* Banner */}
       <section className="section pb-[50px]">
         <div className="container">
-          <div className="row text-center mb-8">
+          <div className="row text-center mb-8 mt-5">
             <div className="flex flex-col lg:flex-row">
-              <div className="text-left lg:w-[48%]">
-                <h1 className="font-primary">{banner.title}</h1>
+              <div className="text-left lg:w-[45%] mt-6">
+                <h1 className="font-primary">
+                  <span className="font-primary text-theme-light">{banner.highlight} </span>
+
+                  {banner.title}
+                </h1>
                 <div>
-                  <p className="mt-4 text-lg md:w-10/12">{markdownify(banner.content)}</p>
+                  <p className="tracking-wide mt-4 text-lg md:w-10/12">{markdownify(banner.content)}</p>
                   <br />
                   {banner.button.enable && (
                     <Link
@@ -39,7 +43,7 @@ const Home = ({ frontmatter }) => {
                 </div>
               </div>
               <Image
-                className="mx-auto lg:w-[52%]"
+                className="ml-auto lg:w-[52%]"
                 src={banner.image}
                 width={750}
                 height={390}
@@ -126,7 +130,7 @@ const Home = ({ frontmatter }) => {
           </div>
           <div className="row mt-10 text-center">
             <div className="flex flex-col lg:flex-row">
-              <div className="lg:w-8/12">
+              <div className="lg:w-[69%]">
                 <Image
                   className="w-10/12"
                   src={solution.images[activeAccordion - 1]}
@@ -136,7 +140,7 @@ const Home = ({ frontmatter }) => {
                   priority
                 />
               </div>
-              <div className="lg:w-4/12">
+              <div className="lg:w-[31%]">
                 {solution.solutions.map((solution, index) => <Accordion
                   activeIndex={activeAccordion}
                   setActiveIndex={setActiveAccordion}

@@ -8,7 +8,7 @@ const AccordionLayout = ({ title, children, index, activeIndex, setActiveIndex }
     <>
       <div onClick={() => handleSetIndex(index)} className='flex w-full justify-between p-2 cursor-pointer'>
         <div className='flex'>
-          <div className={`font-bold text-xl ${activeIndex === index && 'text-theme-light'}`}>
+          <div className={`font-medium text-xl ${activeIndex === index ? 'text-theme-light' : 'text-primary'}`}>
             {title}
           </div>
         </div>
@@ -32,7 +32,7 @@ const AccordionLayout = ({ title, children, index, activeIndex, setActiveIndex }
       </div>
 
       {(activeIndex === index) && (
-        <div className="text-left shadow-3xl rounded-2xl p-2 text-primary">
+        <div className="text-left shadow-3xl rounded-2xl p-2 text-primary leading-6">
           {children}
         </div>
       )}

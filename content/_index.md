@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Try Tami for free"
-    link: "/contact"
+    link: "#"
 
 # highlight feature in homepage
 feature: 

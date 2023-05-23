@@ -14,12 +14,13 @@ function Features({ data }) {
           <section
             key={`service-${index}`}
             className={"section"}
+            id={index + 1}
           >
             <div className="container">
               <div className="flex flex-col md:flex-row">
                 {/* Content */}
                 <div
-                  className={`flex flex-col justify-center md:w-2/5 service-content mt-5 md:mt-0 ${!isOdd ? "md:order-1" : "md:order-2"}`}
+                  className={`flex flex-col justify-center md:w-2/5 service-content mt-5 md:mt-0 ${!isOdd ? "md:order-1" : "md:order-2"} ${!isOdd ? "md:mr-24" : "md:ml-24"}`}
                 >
                   <h2 className="font-bold mb-4 text-3xl">{feature?.title}</h2>
                   {
@@ -39,8 +40,8 @@ function Features({ data }) {
                 <div className={`md:w-3/5 ${!isOdd ? "md:order-2" : "md:order-1"}`}>
                   <Image
                     src={feature.images[0]}
-                    width={750}
-                    height={390}
+                    width={696}
+                    height={392}
                     alt="feature image"
                     priority
                   />

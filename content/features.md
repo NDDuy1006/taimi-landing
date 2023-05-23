@@ -12,7 +12,7 @@ features:
       - icon: "/images/IconChart.svg"
         description: "Beat progress chart overview"
     images:
-      - "/images/service-slide-1.png"
+      - "/images/ManageActivities.png"
 
   - title: "Overview project health"
     contents:
@@ -21,7 +21,7 @@ features:
       - icon: "/images/IconProject.svg"
         description: "Overview project health"
     images: 
-      - "/images/service-slide-1.png"
+      - "/images/ManageHeath.png"
 
   - title: "Customer management"
     contents:
@@ -30,7 +30,7 @@ features:
       - icon: "/images/IconContact.svg"
         description: "Support customer contacts"
     images:
-      - "/images/service-slide-1.png"
+      - "/images/ManageCustomer.png"
 
   - title: "Task management"
     contents:
@@ -41,7 +41,7 @@ features:
       - icon: "/images/IconCode.svg"
         description: "Support markdown format"
     images:
-      - "/images/service-slide-1.png"
+      - "/images/ManageTask.png"
 
   - title: "Attendance management"
     contents:
@@ -50,16 +50,16 @@ features:
       - icon: "/images/IconPieChart.svg"
         description: "Calculate time spent on activities"
     images:
-      - "/images/service-slide-1.png"
+      - "/images/ManageAttendance.png"
 
-  - title: "Overview activities"
+  - title: "Tailored themes"
     contents:
       - icon: "/images/IconColor.svg"
         description: "Accent color"
       - icon: "/images/IconTheme.svg"
         description: "Theme background"
     images:
-      - "/images/service-slide-1.png"
+      - "/images/ManageTheme.png"
 
 call_to_action:
   title: One simple solution for following whatever your company requires

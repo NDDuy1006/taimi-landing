@@ -11,31 +11,50 @@
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "Features",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "#"
+          "text": "Overview activities",
+          "url": "/features#1"
         },
         {
-          "text": "Quick Start",
-          "url": "#"
+          "text": "Overview project health",
+          "url": "/features#2"
+        },
+        {
+          "text": "Customer management",
+          "url": "/features#3"
         }
       ]
+    },
+    {
+      "name": "‎",
+      "menu": [{
+        "text": "Task management",
+        "url": "/features#4"
+      },
+      {
+        "text": "Attendance management",
+        "url": "/features#5"
+      },
+      {
+        "text": "Tailored themes",
+        "url": "/features#6"
+      }]
     },
     {
       "name": "Product",
       "menu": [
         {
-          "text": "Features",
+          "text": "Benefits",
           "url": "#"
         },
         {
-          "text": "Platform",
+          "text": "Price",
           "url": "#"
         },
         {
-          "text": "Pricing",
+          "text": "Download",
           "url": "#"
         }
       ]
@@ -44,15 +63,15 @@
       "name": "Support",
       "menu": [
         {
-          "text": "FAQ",
+          "text": "Benefits",
           "url": "#"
         },
         {
-          "text": "Privacy Policy",
+          "text": "Price",
           "url": "#"
         },
         {
-          "text": "Terms & Conditions",
+          "text": "Download",
           "url": "#"
         }
       ]

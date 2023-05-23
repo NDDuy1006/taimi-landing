@@ -20,8 +20,8 @@ const Header = () => {
   const { enable, label, link } = config.nav_button;
 
   return (
-    <header className="header">
-      <nav className="navbar container">
+    <header className="header sticky top-0 z-50">
+      <nav className="navbar container py-4">
         {/* logo */}
         <div className="order-0">
           <Logo src={header_logo} />
@@ -52,10 +52,10 @@ const Header = () => {
         {/* Menu */}
         <div
           id="nav-menu"
-          className={`order-3 md:order-1 md:grow md:ml-4 ${navOpen ? "max-h-[1000px]" : "max-h-0"
+          className={`order-3 md:order-1 md:grow ${navOpen ? "max-h-[1000px]" : "max-h-0"
             }`}
         >
-          <ul className="navbar-nav block w-full md:flex md:w-auto lg:space-x-2">
+          <ul className="navbar-nav block w-full md:flex md:w-auto md:ml-12">
             {main.map((menu, i) => (
               <React.Fragment key={`menu-${i}`}>
                 {menu.hasChildren ? (
@@ -96,7 +96,7 @@ const Header = () => {
             {enable && (
               <li className="md:hidden">
                 <Link
-                  className="btn btn-seccondary z-0 py-[14px]"
+                  className="btn btn-seccondary z-0 py-[16px]"
                   href={link}
                   rel=""
                 >
@@ -108,7 +108,7 @@ const Header = () => {
         </div>
         {enable && (
           <div className="d-flex order-1 ml-auto hidden min-w-[200px] items-center justify-end md:ml-0 md:flex md:order-2">
-            <Link className="btn btn-seccondary z-0 py-[14px]" href={link} rel="">
+            <Link className="btn btn-seccondary z-0 py-[16px]" href={link} rel="">
               {label}
             </Link>
           </div>

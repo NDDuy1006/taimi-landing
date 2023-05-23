@@ -24,12 +24,12 @@ const Footer = () => {
                 alt=""
               />
             </Link>
-            {markdownify(footer_content, "p", "mt-3 mb-6")}
+            {markdownify(footer_content, "p", "mt-3 mb-6 text-[#4B555D]")}
           </div>
           {footer.map((col) => {
             return (
               <div className="text-primary mb-12 sm:col-6 lg:w-[20%]" key={col.name}>
-                {markdownify(col.name, "h2", "h4")}
+                {col.name ? markdownify(col.name, "h2", "h4") : <div className="lg:h-8" />}
                 <ul className="mt-6">
                   {col?.menu.map((item) => (
                     <li className="mb-1 text-[#4B555D]" key={item.text}>

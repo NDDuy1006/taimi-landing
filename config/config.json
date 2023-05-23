@@ -2,12 +2,12 @@
   "site": {
     "title": "Taimi landing page",
     "base_url": "/",
-    "favicon": "/images/dision_tech.svg",
+    "favicon": "/images/taimi_favicon.svg",
     "logo": "/images/header-logo.svg",
     "header_logo": "/images/header-logo.svg",
-    "logo_width": "160",
-    "logo_height": "60",
-    "logo_text": "Distion Tech"
+    "logo_width": "100",
+    "logo_height": "32",
+    "logo_text": "Taimi"
   },
   "settings": {
     "pagination": 4,
@@ -22,7 +22,7 @@
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
+    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit.",
     "copyright": "Designed and Developed by [dision.tech](https://dision.tech/)"
   },
   "metadata": {

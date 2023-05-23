@@ -2,14 +2,10 @@
   "main": [
     {
       "name": "Features",
-      "url": "#"
+      "url": "/features"
     },
     {
-      "name": "Why choose use?",
-      "url": "#"
-    },
-    {
-      "name": "Download",
+      "name": "Why choose us?",
       "url": "#"
     }
   ],

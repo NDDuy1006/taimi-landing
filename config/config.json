@@ -15,16 +15,11 @@
     "blog_folder": "blogs"
   },
 
-  "nav_button": [{
+  "nav_button": {
     "enable": true,
-    "label": "Get a demo",
-    "link": "/#"
+    "label": "Contact us",
+    "link": "https://new-dision-tech.dision.office/about-us/"
   },
-  {
-    "enable": true,
-    "label": "Sign up",
-    "link": "/#"
-  }],
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
@@ -33,8 +28,8 @@
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "",
     "meta_image": "",
-    "meta_description": "A SAAS template for nextjs"
+    "meta_description": ""
   }
 }

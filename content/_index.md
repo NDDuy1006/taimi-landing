@@ -1,25 +1,25 @@
 ---
 banner:
   title: Time-tracking solution is productivity foundation
-  content: Boost **productivity** and **efficiency** with our powerful time and task tracking application
+  content: Join a user-friendly **time tracking** solution designed for **remote teams and organizations** of all sizes to effectively manage diverse projects and tasks
   content2: From clocking hours to managing personnel, our comprehensive app covers every aspect of efficient business operations, empowering you to achieve operational excellence.
   image: /images/banner-art.svg
   button:
     enable: true
-    label: "Get a demo"
+    label: "Try Tami for free"
     link: "/contact"
 
-# feature
+# highlight feature in homepage
 feature: 
   title: Make every single working section matter
   subTitle: Taimi empowers companies and individuals to optimize their work management and unlock higher levels of productivity
   features:
   - name: "Productivity tools"
     content: "Achieve your centralized hub for seamlessly tracking tasks, projects, and goals. Taimi also ensures timely completion of deadlines, efficient time management, and steadfast progress monitoring to keep you on the right path."
-  - name: "Productivity tools"
-    content: "Achieve your centralized hub for seamlessly tracking tasks, projects, and goals. Taimi also ensures timely completion of deadlines, efficient time management, and steadfast progress monitoring to keep you on the right path."
-  - name: "Productivity tools"
-    content: "Achieve your centralized hub for seamlessly tracking tasks, projects, and goals. Taimi also ensures timely completion of deadlines, efficient time management, and steadfast progress monitoring to keep you on the right path."
+  - name: "Customized time tracking"
+    content: "Meet your unique needs and requirements so that you can effortlessly track and manage your time in a way that aligns perfectly with your team's workflows and preferences."
+  - name: "Workforce analytics"
+    content: "Empowers organizations to leverage the power of data to optimize workforce management, improve employee performance and engagement, and drive strategic decision-making."
   darkCards:
   - title: "60 seconds"
     subTitle: "to set up"
@@ -28,70 +28,31 @@ feature:
   - title: "18M+ hours"
     subTitle: "total time tracking"
     buttonText: "Explore features"
-    href: "#"
+    href: "/features"
   - title: "200+ projects"
     subTitle: "management"
     buttonText: "Explore features"
-    href: "#"
+    href: "/features"
   - title: "150M tasks"
     subTitle: "completed"
     buttonText: "Explore features"
-    href: "#"
+    href: "/features"
 
 # solotions
 solution:
   title: "A multi-benefit in one solution"
   subTitle: "Unlock multiple projects control in a single virtual workplace with Taimi"
   solutions:
-  - title: "Productivity tools"
-    content: "Everyone is more aware of how activities with specific project tasks"
-  - title: "Productivity tools"
-    content: "Everyone is more aware of how activities with specific project tasks"
-  - title: "Productivity tools"
-    content: "Everyone is more aware of how activities with specific project tasks"
-# services
-services:
-  - title: "It is the most advanced digital marketing and it company."
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-    images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
-    button:
-      enable: true
-      label: Check it out
-      link: /contact
-
-  - title: "It is a privately owned Information and cyber security company"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-    images: 
-      - "/images/service-slide-1.png"
-    button:
-      enable: true
-      label: Check it out
-      link: /contact
-  
-  - title: "It’s a team of experienced and skilled people with distributions"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-    images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
-    button:
-      enable: true
-      label: Check it out
-      link: /contact
-
-  - title: "A company standing different from others"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-    images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
-    button:
-      enable: true
-      label: Check it out
-      link: /contact
+  - title: "Improved communication"
+    content: "Everyone is more aware of how activities with specific project tasks, provide a clear connection between the work performed and the corresponding project."
+  - title: "Upgrade project health"
+    content: "Integrating team activities and data, a realistic project scope is created for better decision-making, early identification of issues, and proactive management of timelines."
+  - title: "Task management"
+    content: "Enable flexible and scalable scrum board management in both vertical and horizontal dimensions. Prioritize your tasks so that you may use your time wisely."
+  images:
+    - "/images/service-slide-1.png"
+    - "/images/service-slide-2.png"
+    - "/images/service-slide-3.png"
 
 # workflow
 workflow: 
@@ -101,9 +62,8 @@ workflow:
 
 # call_to_action
 call_to_action:
-  title: Let's get started. It's free
-  content: Unlock multiple projects control in a single virtual workplace with Taimi
-  image: '/images/cta.svg'
+  title: Let's get started. It's free!
+  content: Unlock multiple projects control in a single virtual workplace with Taimi.
   button:
     enable: true
     label: "Try now"

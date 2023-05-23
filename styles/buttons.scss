@@ -3,11 +3,11 @@
 }
 
 .btn-primary {
-  @apply  bg-primary text-white border-transparent z-[1]  rounded-[4px] relative transition-all;
+  @apply  bg-white text-theme-light border-transparent z-[1]  rounded-[4px] relative transition-all;
 }
 
 .btn-seccondary {
-  @apply  bg-[#A8AFB866] text-white border-transparent z-[1]  rounded-[4px] relative transition-all;
+  @apply  bg-theme-light text-white border-transparent z-[1]  rounded-[4px] relative transition-all;
 }
 
 .btn-outline-primary {

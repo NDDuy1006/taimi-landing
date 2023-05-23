@@ -17,7 +17,7 @@ const Header = () => {
 
   // logo source
   const { logo } = config.site;
-  const { enable, label, link } = config.nav_button[0];
+  const { enable, label, link } = config.nav_button;
 
   return (
     <header className="header">
@@ -98,7 +98,7 @@ const Header = () => {
             {enable && (
               <li className="md:hidden">
                 <Link
-                  className="btn btn-primary z-0 py-[14px]"
+                  className="btn btn-seccondary z-0 py-[14px]"
                   href={link}
                   rel=""
                 >
@@ -110,7 +110,7 @@ const Header = () => {
         </div>
         {enable && (
           <div className="d-flex order-1 ml-auto hidden min-w-[200px] items-center justify-end md:ml-0 md:flex md:order-2">
-            <Link className="btn btn-primary z-0 py-[14px]" href={link} rel="">
+            <Link className="btn btn-seccondary z-0 py-[14px]" href={link} rel="">
               {label}
             </Link>
           </div>

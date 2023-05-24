@@ -24,7 +24,7 @@ const Home = ({ frontmatter }) => {
             <div className="flex flex-col lg:flex-row">
               <div className="text-left lg:w-[45%] mt-6">
                 <h1 className="text-h1 font-h1 leading-h1">
-                  <span className="font-primary text-theme-light">{banner.highlight} </span>
+                  <span className="font-primary text-primary">{banner.highlight} </span>
 
                   {banner.title}
                 </h1>
@@ -60,7 +60,7 @@ const Home = ({ frontmatter }) => {
       <section className="section">
         <div className="container">
           <div className="text-center relative w-fit mx-auto">
-            <h2 className="text-4xl text-theme-light">{markdownify(feature.title)}</h2>
+            <h2 className="text-4xl text-primary">{markdownify(feature.title)}</h2>
             <p className="mt-3 text-primary lg:w-[70%] mx-auto">{feature.subTitle}</p>
           </div>
           <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-1 lg:grid-cols-3">
@@ -88,7 +88,7 @@ const Home = ({ frontmatter }) => {
         </div>
         {/* dark card */}
         <div className="mt-8">
-          <div className="container rounded-xl py-8 bg-theme-light/10">
+          <div className="container rounded-xl py-8 bg-primary/10">
             <div className="px-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
               {feature.darkCards.map((item, i) => (
                 <div
@@ -125,7 +125,7 @@ const Home = ({ frontmatter }) => {
       <section className="section">
         <div className="container">
           <div className="text-center relative w-fit mx-auto">
-            <h2 className="text-4xl text-theme-light">{markdownify(solution.title)}</h2>
+            <h2 className="text-4xl text-primary">{markdownify(solution.title)}</h2>
             <p className="mt-3 text-primary mx-auto">{solution.subTitle}</p>
           </div>
           <div className="row mt-10 text-center">

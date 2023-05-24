@@ -3,19 +3,19 @@
 }
 
 .btn-primary {
-  @apply  bg-white text-theme-light border-transparent z-[1]  rounded-[4px] relative transition-all;
+  @apply  bg-white text-primary border-transparent z-[1]  rounded-[4px] relative transition-all;
 }
 
 .btn-seccondary {
-  @apply  bg-theme-light text-white border-transparent z-[1]  rounded-[4px] relative transition-all;
+  @apply  bg-primary text-white border-transparent z-[1]  rounded-[4px] relative transition-all;
 }
 
 .btn-sub-primary {
-  @apply  bg-white text-theme-light border-theme-light z-[1]  rounded-[4px] relative transition-all;
+  @apply  bg-white text-primary border-primary z-[1]  rounded-[4px] relative transition-all;
 }
 
 .btn-outline-primary {
-  @apply relative text-text border-0 bg-transparent rounded-[30px] hover:border-transparent hover:text-primary;
+  @apply relative text-dark border-0 bg-transparent rounded-[30px] hover:border-transparent hover:text-primary;
 
   &:after {
     @apply w-full h-full rounded-[30px] absolute left-1/2 top-1/2 translate-x-[-50%]  translate-y-[-50%] content-[''] bg-transparent border border-primary transition-all duration-300 ease-in-out z-[0];

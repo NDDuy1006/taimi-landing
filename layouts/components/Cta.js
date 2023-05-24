@@ -6,7 +6,7 @@ function Cta({ cta }) {
 
   return (
     <section className="section">
-      <div className="section container rounded-xl shadow bg-theme-light">
+      <div className="section container rounded-xl shadow bg-primary">
         <div className="row mx-auto items-center justify-center">
           <div className="text-center max-w-[640px]">
             <h2 className="text-4xl text-white">{title}</h2>

@@ -33,9 +33,9 @@
 }
 
 .nav-link {
-  @apply font-primary leading-4 text-primary md:mr-8 hover:text-theme-light h-full;
+  @apply font-primary leading-4 text-dark md:mr-8 hover:text-primary h-full;
 
   &-active {
-    @apply text-primary hover:text-theme-light;
+    @apply text-primary hover:text-primary;
   }
 }

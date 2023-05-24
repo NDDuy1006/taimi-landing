@@ -40,12 +40,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        text: theme.colors.default.text_color.default,
-        light: theme.colors.default.text_color.light,
-        dark: theme.colors.default.text_color.dark,
+        dark: theme.colors.default.text_color.primary,
+        light: theme.colors.default.text_color.seccondary,
         primary: theme.colors.default.theme_color.primary,
         secondary: theme.colors.default.theme_color.secondary,
-        body: theme.colors.default.theme_color.body,
+        border: theme.colors.default.theme_color.border,
+        body: theme.colors.default.theme_color.primary,
         border: theme.colors.default.theme_color.border,
         "theme-light": theme.colors.default.theme_color.theme_light,
       },

@@ -9,7 +9,7 @@ function Features({ data }) {
   return (
     <>
       <section className="section max-w-[1080px] container text-center">
-        <h1>Time tracking <span className="text-theme-light">cloud-based solution</span> available anywhere - everything</h1>
+        <h1>Time tracking <span className="text-primary">cloud-based solution</span> available anywhere - everything</h1>
         <Image className="max-w-[850px] mx-auto mt-8" src={'/images/Platform.png'} width={852} height={72} alt="Platform" />
       </section>
 

@@ -8,7 +8,7 @@ function Cta({ cta }) {
     <section className="section">
       <div className="section container rounded-xl shadow bg-theme-light">
         <div className="row mx-auto items-center justify-center">
-          <div className="text-center max-w-xl">
+          <div className="text-center max-w-[640px]">
             <h2 className="text-4xl text-white">{title}</h2>
             {content && <p className="mt-4 text-white">{markdownify(content)}</p>}
             {cta.button.enable && (

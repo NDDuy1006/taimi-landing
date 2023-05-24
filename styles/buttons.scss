@@ -10,6 +10,10 @@
   @apply  bg-theme-light text-white border-transparent z-[1]  rounded-[4px] relative transition-all;
 }
 
+.btn-sub-primary {
+  @apply  bg-white text-theme-light border-theme-light z-[1]  rounded-[4px] relative transition-all;
+}
+
 .btn-outline-primary {
   @apply relative text-text border-0 bg-transparent rounded-[30px] hover:border-transparent hover:text-primary;
 

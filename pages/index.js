@@ -87,9 +87,9 @@ const Home = ({ frontmatter }) => {
           </div>
         </div>
         {/* dark card */}
-        <div className="mt-8 bg-theme-light/10">
-          <div className="container py-8">
-            <div className="grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-8">
+          <div className="container rounded-xl py-8 bg-theme-light/10">
+            <div className="px-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
               {feature.darkCards.map((item, i) => (
                 <div
                   className="feature-card rounded-xl bg-white p-4 pt-0"
@@ -99,13 +99,13 @@ const Home = ({ frontmatter }) => {
                     <div className="text-3xl">{item.title}</div>
                     <div className="my-4">{item.subTitle}</div>
                     <Link
-                      className="btn btn-seccondary z-0 px-2 py-3"
+                      className="btn btn-sub-primary z-0 px-2 py-3"
                       href={item.href}
                     >
-                      <div className="flex flex-row relative pr-6">
+                      <div className="flex flex-row relative pr-4">
                         {item.buttonText}
                         <Image
-                          className="absolute top-[-2px] right-0"
+                          className="w-2 absolute top-[-2px] right-0 fill-black"
                           src={"/images/btn-icon.png"}
                           width={14}
                           height={16}
@@ -132,7 +132,7 @@ const Home = ({ frontmatter }) => {
             <div className="flex flex-col lg:flex-row">
               <div className="lg:w-[69%]">
                 <Image
-                  className="w-10/12"
+                  className="w-10/12 transition-opacity"
                   src={solution.images[activeAccordion - 1]}
                   width={750}
                   height={390}

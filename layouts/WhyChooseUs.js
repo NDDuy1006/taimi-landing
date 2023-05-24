@@ -27,7 +27,7 @@ function Features({ data }) {
                   <div className="flex flex-row">
                     <Image alt="customer avatar" src={feedback.avatar} width={44} height={44} />
                     <div className="text-left ml-2">
-                      <h3 className="text-h3 font-h3 leading-h3 text-dark">{feedback.name}</h3>
+                      <h3 className="text-h3 font-h3 leading-h3 ">{feedback.name}</h3>
                       <p className="text-xs text-[#4B555D]">{feedback.title}</p>
                     </div>
                   </div>

@@ -41,7 +41,7 @@ module.exports = {
     extend: {
       colors: {
         dark: theme.colors.default.text_color.primary,
-        light: theme.colors.default.text_color.seccondary,
+        light: theme.colors.default.text_color.secondary,
         primary: theme.colors.default.theme_color.primary,
         secondary: theme.colors.default.theme_color.secondary,
         border: theme.colors.default.theme_color.border,

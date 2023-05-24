@@ -1,7 +1,7 @@
 ---
 banner:
   highlight: Time-tracking 
-  title: solution is productivity foundation
+  title: solution is your productivity foundation
   content: Join a user-friendly **time tracking** solution designed for **remote teams and organizations** of all sizes to effectively manage diverse projects and tasks
   content2: From clocking hours to managing personnel, our comprehensive app covers every aspect of efficient business operations, empowering you to achieve operational excellence.
   image: /images/hero-banner.png

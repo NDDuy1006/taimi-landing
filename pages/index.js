@@ -19,41 +19,26 @@ const Home = ({ frontmatter }) => {
     <Base title={title}>
       {/* Banner */}
       <section className="section pb-[50px]">
-        <div className="container">
-          <div className="row text-center mb-8 mt-5">
-            <div className="flex flex-col lg:flex-row">
-              <div className="text-left lg:w-[45%] mt-6">
-                <h1 className="text-h1 font-h1 leading-h1">
-                  <span className="font-primary text-primary">{banner.highlight} </span>
-
-                  {banner.title}
-                </h1>
-                <div>
-                  <p className="tracking-wide mt-4 text-lg md:w-10/12">{markdownify(banner.content)}</p>
-                  <br />
-                  {banner.button.enable && (
-                    <Link
-                      className="btn btn-seccondary z-0 py-[20px]"
-                      href={banner.button.link}
-                      rel={banner.button.rel}
-                    >
-                      {banner.button.label}
-                    </Link>
-                  )}
-                </div>
-              </div>
-              <Image
-                className="ml-auto lg:w-[52%]"
-                src={banner.image}
-                width={750}
-                height={390}
-                alt="banner image"
-                priority
-              />
-            </div>
+        <div className="container max-w-[855px]">
+          <div className="flex flex-col">
+            <h1 className="text-h1 font-h1 leading-h1 text-dark text-center">
+              <span className="text-secondary">{banner.highlight} </span>
+              {banner.title}
+            </h1>
+            <p className="tracking-wide mt-4 text-subtit_1 font-subtit_1 leading-subtit_1 text-light text-center">{markdownify(banner.content)}</p>
+            <br />
+            {banner.button.enable && (
+              <Link
+                className="btn btn-seccondary z-0 my-8 mx-auto py-[20px] w-[180px]"
+                href={banner.button.link}
+                rel={banner.button.rel}
+              >
+                {banner.button.label}
+              </Link>
+            )}
           </div>
-          <YoutubePlayer id="jDiUfKtlmW4" title="What is Clockify?" />
         </div>
+        <YoutubePlayer id="jDiUfKtlmW4" title="What is Clockify?" />
       </section>
 
       {/* Features */}

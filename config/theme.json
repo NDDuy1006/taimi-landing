@@ -11,11 +11,5 @@
         "secondary": "#40484F"
       }
     }
-  },
-  "fonts": {
-    "font_family": {
-      "primary": "Roboto:wght@400",
-      "primary_type": "sans-serif"
-    }
   }
 }

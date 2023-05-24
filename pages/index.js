@@ -19,39 +19,41 @@ const Home = ({ frontmatter }) => {
     <Base title={title}>
       {/* Banner */}
       <section className="section pb-[50px]">
-        <div className="container max-w-[855px]">
-          <div className="flex flex-col">
-            <h1 className="text-h1 font-h1 leading-h1 text-dark text-center">
-              <span className="text-secondary">{banner.highlight} </span>
-              {banner.title}
-            </h1>
-            <p className="tracking-wide mt-4 text-subtit_1 font-subtit_1 leading-subtit_1 text-light text-center">{markdownify(banner.content)}</p>
-            <br />
-            {banner.button.enable && (
-              <Link
-                className="btn btn-seccondary z-0 my-8 mx-auto py-[20px] w-[180px]"
-                href={banner.button.link}
-                rel={banner.button.rel}
-              >
-                {banner.button.label}
-              </Link>
-            )}
+        <div className="container">
+          <div className="max-w-[855px] mx-auto bg-[url('/images/bg-image.png')] bg-cover">
+            <div className="flex flex-col">
+              <h1 className="text-h1 font-h1 leading-h1 text-dark text-center">
+                <span className="text-secondary">{banner.highlight} </span>
+                {banner.title}
+              </h1>
+              <p className="tracking-wide mt-4 text-subtit_1 font-subtit_1 leading-subtit_1 text-light text-center">{markdownify(banner.content)}</p>
+              <br />
+              {banner.button.enable && (
+                <Link
+                  className="btn btn-seccondary z-0 my-8 mx-auto py-[20px] w-[180px]"
+                  href={banner.button.link}
+                  rel={banner.button.rel}
+                >
+                  {banner.button.label}
+                </Link>
+              )}
+            </div>
           </div>
+          <YoutubePlayer id="jDiUfKtlmW4" title="What is Clockify?" />
         </div>
-        <YoutubePlayer id="jDiUfKtlmW4" title="What is Clockify?" />
       </section>
 
       {/* Features */}
       <section className="section">
         <div className="container">
           <div className="text-center relative w-fit mx-auto">
-            <h2 className="text-4xl text-primary">{markdownify(feature.title)}</h2>
-            <p className="mt-3 text-primary lg:w-[70%] mx-auto">{feature.subTitle}</p>
+            <h2 className="text-h2 font-h2 leading-h2 text-secondary">{markdownify(feature.title)}</h2>
+            <p className="mt-3 text-base font-body leading-base text-light lg:w-[70%] mx-auto">{feature.subTitle}</p>
           </div>
           <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-1 lg:grid-cols-3">
             {feature.features.map((item, i) => (
               <div
-                className="feature-card rounded-xl bg-white p-4 pt-0 border-solid border-2"
+                className="feature-card pt-0"
                 key={`feature-${i}`}
               >
                 {item.icon && (
@@ -64,8 +66,8 @@ const Home = ({ frontmatter }) => {
                   />
                 )}
                 <div className="mt-4 text-left">
-                  {markdownify(item.name, "h3", "h5")}
-                  <p className="mt-3">{item.content}</p>
+                  {markdownify(item.name, "h3", "text-h3 font-h3 leading-h3 text-dark")}
+                  <p className="mt-3 text-base font-body leading-base text-light">{item.content}</p>
                 </div>
               </div>
             ))}

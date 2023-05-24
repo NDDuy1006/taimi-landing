@@ -60,7 +60,7 @@ const Home = ({ frontmatter }) => {
       <section className="section">
         <div className="container">
           <div className="text-center relative w-fit mx-auto">
-            <h2 className="text-4xl">{markdownify(feature.title)}</h2>
+            <h2 className="text-4xl text-theme-light">{markdownify(feature.title)}</h2>
             <p className="mt-3 text-primary lg:w-[70%] mx-auto">{feature.subTitle}</p>
           </div>
           <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-1 lg:grid-cols-3">
@@ -125,7 +125,7 @@ const Home = ({ frontmatter }) => {
       <section className="section">
         <div className="container">
           <div className="text-center relative w-fit mx-auto">
-            <h2 className="text-4xl">{markdownify(solution.title)}</h2>
+            <h2 className="text-4xl text-theme-light">{markdownify(solution.title)}</h2>
             <p className="mt-3 text-primary mx-auto">{solution.subTitle}</p>
           </div>
           <div className="row mt-10 text-center">

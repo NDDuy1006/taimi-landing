@@ -25,10 +25,10 @@ const Footer = () => {
             {markdownify(footer_content, "p", "mt-3 mb-6 text-[#4B555D]")}
           </div>
           {/* seccond column */}
-          <div className="w-[35%] flex flex-row justify-between">
+          <div className="lg:w-[35%] flex flex-row justify-around">
             {footer1.map((col, index) => {
               return (
-                <div className={`text-primary mb-12 ${index === 1 && "self-end"}`} key={col.name}>
+                <div className={`text-primary mb-12 col-6 ${index === 1 && "self-end"}`} key={col.name}>
                   {markdownify(col.name, "h2", "h4")}
                   <ul className="mt-6">
                     {col?.menu.map((item) => (
@@ -44,10 +44,10 @@ const Footer = () => {
             })}
           </div>
           {/* third column */}
-          <div className="w-[35%] flex flex-row justify-around">
-            {footer2.map((col, index) => {
+          <div className="lg:w-[35%] flex flex-row justify-around">
+            {footer2.map((col) => {
               return (
-                <div className={`text-primary mb-12 ${index === 1 && "self-end"}`} key={col.name}>
+                <div className={`text-primary mb-12 col-6`} key={col.name}>
                   {markdownify(col.name, "h2", "h4")}
                   <ul className="mt-6">
                     {col?.menu.map((item) => (

@@ -8,9 +8,18 @@ function Features({ data }) {
 
   return (
     <>
-      <section className="section max-w-[1080px] container text-center">
-        <h1>Time tracking <span className="text-primary">cloud-based solution</span> available anywhere - everything</h1>
-        <Image className="max-w-[850px] mx-auto mt-8" src={'/images/Platform.png'} width={852} height={72} alt="Platform" />
+      <section className="section text-center bg-primary/10 mb-5 pb-7">
+        <h1 className="text-h1 font-h1 leading-h1 text-dark">Time tracking <span className="text-secondary">cloud-based solution</span> available anywhere - everything</h1>
+      </section>
+
+      <section className="section text-center">
+        <h2 className="text-h2 font-h2 leading-h2 text-secondary">
+          Meet Taimi in 60 seconds
+        </h2>
+        <p className="font-subtit_1 text-subtit_2 leading-subtit_2">Easy started with simple steps</p>
+        <div className="container flex flex-row justify-between">
+          
+        </div>
       </section>
 
       {/* Feedback */}

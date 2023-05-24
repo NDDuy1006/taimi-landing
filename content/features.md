@@ -4,6 +4,7 @@ layout: features
 draft: false
 features:
   - title: "Overview activities"
+    number: "01."
     contents:
       - icon: "/images/IconFilter.svg"
         description: "Filtering by project team or personal"
@@ -15,6 +16,7 @@ features:
       - "/images/ManageActivities.png"
 
   - title: "Overview project health"
+    number: "02."
     contents:
       - icon: "/images/IconEstimate.svg"
         description: "Estimate project budget"
@@ -24,6 +26,7 @@ features:
       - "/images/ManageHeath.png"
 
   - title: "Customer management"
+    number: "03."
     contents:
       - icon: "/images/IconCustomer.svg"
         description: "Customer management"
@@ -33,6 +36,7 @@ features:
       - "/images/ManageCustomer.png"
 
   - title: "Task management"
+    number: "04."
     contents:
       - icon: "/images/IconProject.svg"
         description: "Support scrum board view"
@@ -44,6 +48,7 @@ features:
       - "/images/ManageTask.png"
 
   - title: "Attendance management"
+    number: "05."
     contents:
       - icon: "/images/IconApprove.svg"
         description: "Approval"
@@ -53,6 +58,7 @@ features:
       - "/images/ManageAttendance.png"
 
   - title: "Tailored themes"
+    number: "06."
     contents:
       - icon: "/images/IconColor.svg"
         description: "Accent color"

@@ -16,3 +16,18 @@
 @layer utilities {
   @import "utilities";
 }
+
+// overide style for react component
+.yt-lite {
+  max-width: 1080px;
+  border: 24px solid rgba(0, 150, 152, 0.1);
+  border-radius: 16px;
+  margin-top: 44px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yt-lite::after {
+  background: var(--background) no-repeat center center;
+  background-size: cover;
+}

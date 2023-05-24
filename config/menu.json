@@ -9,7 +9,7 @@
       "url": "/why-choose-us"
     }
   ],
-  "footer": [
+  "footer1": [
     {
       "name": "Features",
       "menu": [
@@ -41,8 +41,8 @@
         "text": "Tailored themes",
         "url": "/features#6"
       }]
-    },
-    {
+    }],
+    "footer2": [{
       "name": "Product",
       "menu": [
         {

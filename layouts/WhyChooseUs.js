@@ -8,9 +8,9 @@ function Features({ data }) {
 
   return (
     <>
-      <section className="section max-w-[1024px] container text-center">
+      <section className="section max-w-[1080px] container text-center">
         <h1>Time tracking <span className="text-theme-light">cloud-based solution</span> available anywhere - everything</h1>
-        <Image className="mx-auto mt-8" src={'/images/Platform.png'} width={852} height={72} alt="Platform" />
+        <Image className="max-w-[850px] mx-auto mt-8" src={'/images/Platform.png'} width={852} height={72} alt="Platform" />
       </section>
 
       {/* Feedback */}
@@ -21,9 +21,9 @@ function Features({ data }) {
             <p className="mt-3 text-[#4B555D] mx-auto">{feedback.description}</p>
           </div>
           <div className="row text-center">
-            <div className="flex flex-row flex-wrap mt-10 justify-center">
+            <div className="flex flex-row flex-wrap mt-10 justify-between">
               {feedback.feedbacks.map((feedback, index) =>
-                <div className="flex flex-col w-[220px] mb-4" key={index}>
+                <div className="flex flex-col w-[218px] mb-4" key={index}>
                   <div className="flex flex-row">
                     <Image alt="customer avatar" src={feedback.avatar} width={44} height={44} />
                     <div className="text-left ml-2">
@@ -31,7 +31,7 @@ function Features({ data }) {
                       <p className="text-xs text-[#4B555D]">{feedback.title}</p>
                     </div>
                   </div>
-                  <div className="text-base text-primary bg-white text-left p-2 mr-8 mt-4 rounded">{feedback.comment}</div>
+                  <div className="text-base text-primary bg-white text-left p-[10px] mt-4 rounded">{`"${feedback.comment}"`}</div>
                 </div>
               )}
             </div>
@@ -45,7 +45,7 @@ function Features({ data }) {
             <h2 className="text-4xl">Meet Taimi in 60 seconds</h2>
             <p className="mt-3 text-[#4B555D] mx-auto">Easy started with simple steps</p>
           </div>
-          <YoutubePlayer id="RAmIaHGoaYU" title="Starlink Mission" />
+          <YoutubePlayer id="jDiUfKtlmW4" title="What is Clockify?" />
         </div>
       </section>
 

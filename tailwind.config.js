@@ -1,13 +1,5 @@
 const theme = require("./config/theme.json");
 
-let font_base = Number(theme.fonts.font_size.base.replace("px", ""));
-let font_scale = Number(theme.fonts.font_size.scale);
-let h6 = font_base / font_base;
-let h5 = h6 * font_scale;
-let h4 = h5 * font_scale;
-let h3 = h4 * font_scale;
-let h2 = h3 * font_scale;
-let h1 = h2 * font_scale;
 let fontPrimary, fontPrimaryType, fontSecondary, fontSecondaryType;
 if (theme.fonts.font_family.primary) {
   fontPrimary = theme.fonts.font_family.primary
@@ -58,16 +50,39 @@ module.exports = {
         "theme-light": theme.colors.default.theme_color.theme_light,
       },
       fontSize: {
-        base: font_base + "px",
-        h1: h1 + "rem",
-        "h1-sm": h1 * 0.8 + "rem",
-        h2: h2 + "rem",
-        "h2-sm": h2 * 0.8 + "rem",
-        h3: h3 + "rem",
-        "h3-sm": h3 * 0.8 + "rem",
-        h4: h4 + "rem",
-        h5: h5 + "rem",
-        h6: h6 + "rem",
+        base: "16px",
+        h1: "48px",
+        "h1-sm": "38px",
+        h2: "36px",
+        "h2-sm": "28px",
+        h3: "20px",
+        "h3-sm": "16px",
+        subtit_1: "20px",
+        subtit_2: "16px",
+        button_1: "20px",
+        button_2: "16px",
+        body: "16px",
+      },
+      lineHeight: {
+        base: "24px",
+        h1: "64px",
+        h2: "44px",
+        h3: "28px",
+        subtit_1: "32px",
+        subtit_2: "24px",
+        button_1: "0",
+        button_2: "0",
+        body: "16px",
+      },
+      fontWeight: {
+        h1: 700,
+        h2: 500,
+        h3: 500,
+        subtit_1: 400,
+        subtit_2: 500,
+        button_1: 500,
+        button_2: 500,
+        body: 400,
       },
       fontFamily: {
         primary: [fontPrimary, fontPrimaryType],

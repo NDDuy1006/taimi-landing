@@ -23,7 +23,7 @@ const Home = ({ frontmatter }) => {
           <div className="row text-center mb-8 mt-5">
             <div className="flex flex-col lg:flex-row">
               <div className="text-left lg:w-[45%] mt-6">
-                <h1 className="font-primary">
+                <h1 className="text-h1 font-h1 leading-h1">
                   <span className="font-primary text-theme-light">{banner.highlight} </span>
 
                   {banner.title}

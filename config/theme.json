@@ -17,10 +17,6 @@
     "font_family": {
       "primary": "Roboto:wght@400",
       "primary_type": "sans-serif"
-    },
-    "font_size": {
-      "base": "16",
-      "scale": "1.250"
     }
   }
 }

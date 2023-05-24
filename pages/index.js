@@ -58,11 +58,10 @@ const Home = ({ frontmatter }) => {
               >
                 {item.icon && (
                   <Image
-                    className="mx-auto"
                     src={item.icon}
-                    width={30}
-                    height={30}
-                    alt=""
+                    width={48}
+                    height={48}
+                    alt="card icon"
                   />
                 )}
                 <div className="mt-4 text-left">
@@ -75,24 +74,24 @@ const Home = ({ frontmatter }) => {
         </div>
         {/* dark card */}
         <div className="mt-8">
-          <div className="container rounded-xl py-8 bg-primary/10">
-            <div className="px-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="container rounded-xl p-4 bg-primary/10">
+            <div className="grid gap-x-4 gap-y-4 sm:grid-cols-2 lg:grid-cols-4">
               {feature.darkCards.map((item, i) => (
                 <div
                   className="feature-card rounded-xl bg-white p-4 pt-0"
                   key={`card-${i}`}
                 >
                   <div className="mt-4 text-left text-[black]">
-                    <div className="text-3xl">{item.title}</div>
-                    <div className="my-4">{item.subTitle}</div>
+                    <div className="text-h2 font-h2 leading-h2">{item.title}</div>
+                    <div className="text-base font-body leading-base text-light">{item.subTitle}</div>
                     <Link
-                      className="btn btn-sub-primary z-0 px-2 py-3"
+                      className="btn btn-sub-primary z-0 p-2 mt-4"
                       href={item.href}
                     >
                       <div className="flex flex-row relative pr-4">
                         {item.buttonText}
                         <Image
-                          className="w-2 absolute top-[-2px] right-0 fill-black"
+                          className="w-2 absolute top-0 right-0"
                           src={"/images/btn-icon.png"}
                           width={14}
                           height={16}
@@ -112,8 +111,8 @@ const Home = ({ frontmatter }) => {
       <section className="section">
         <div className="container">
           <div className="text-center relative w-fit mx-auto">
-            <h2 className="text-4xl text-primary">{markdownify(solution.title)}</h2>
-            <p className="mt-3 text-primary mx-auto">{solution.subTitle}</p>
+            <h2 className="text-h2 font-h2 leading-h2 text-secondary">{markdownify(solution.title)}</h2>
+            <p className="mt-3 text-base font-body leading-base text-light">{solution.subTitle}</p>
           </div>
           <div className="row mt-10 text-center">
             <div className="flex flex-col lg:flex-row">

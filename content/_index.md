@@ -17,10 +17,13 @@ feature:
   features:
   - name: "Productivity tools"
     content: "Achieve your centralized hub for seamlessly tracking tasks, projects, and goals. Taimi also ensures timely completion of deadlines, efficient time management, and steadfast progress monitoring to keep you on the right path."
+    icon: "/images/IconFeature1.svg"
   - name: "Customized time tracking"
     content: "Meet your unique needs and requirements so that you can effortlessly track and manage your time in a way that aligns perfectly with your team's workflows and preferences."
+    icon: "/images/IconFeature2.svg"
   - name: "Workforce analytics"
     content: "Empowers organizations to leverage the power of data to optimize workforce management, improve employee performance and engagement, and drive strategic decision-making."
+    icon: "/images/IconFeature3.svg"
   darkCards:
   - title: "60 seconds"
     subTitle: "to set up"

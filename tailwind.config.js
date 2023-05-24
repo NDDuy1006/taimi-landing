@@ -76,7 +76,7 @@ module.exports = {
       },
       fontWeight: {
         h1: 700,
-        h2: 500,
+        h2: 700,
         h3: 500,
         subtit_1: 400,
         subtit_2: 500,

@@ -7,7 +7,6 @@ function Features({ data }) {
 
   return (
     <>
-      {markdownify(title, "h1", "h2 mt-8 text-center")}
       {features.map((feature, index) => {
         const isOdd = index % 2 > 0;
         return (
@@ -22,7 +21,7 @@ function Features({ data }) {
                 <div
                   className={`flex flex-col justify-center md:w-2/5 service-content mt-5 md:mt-0 ${!isOdd ? "md:order-1" : "md:order-2"} ${!isOdd ? "md:mr-24" : "md:ml-24"}`}
                 >
-                  <h2 className="font-bold mb-4 text-3xl">{feature?.title}</h2>
+                  <h2 className="text-h2 font-h2 leading-h2">{feature?.title}</h2>
                   {
                     feature.contents.map((content, index) => <div key={index} className="flex flex-row my-2 md:my-4 lg:my-6">
                       <Image
@@ -31,7 +30,7 @@ function Features({ data }) {
                         height={48}
                         alt="icon"
                       />
-                      <div className="ml-4 text-primary self-center text-xl">{content.description}</div>
+                      <div className="ml-4 text-subtit_1 font-subtit_1 leading-subtit_1 self-center">{content.description}</div>
                     </div>)
                   }
                 </div>

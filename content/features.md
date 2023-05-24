@@ -66,6 +66,6 @@ call_to_action:
   content: ""
   button:
     enable: true
-    label: "Try now"
+    label: "Try Taimi for free"
     link: "#"
 ---

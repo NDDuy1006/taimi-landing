@@ -4,6 +4,12 @@ import Footer from "@partials/Footer";
 import Header from "@partials/Header";
 import Head from "next/head";
 import { useRouter } from "next/router";
+import { DM_Sans } from '@next/font/google';
+
+const dm_sans = DM_Sans({
+  weight: '400',
+  subsets: ['sans-serif'],
+});
 
 const Base = ({
   title,
@@ -91,7 +97,7 @@ const Base = ({
       </Head>
       <Header />
       {/* main site */}
-      <main>{children}</main>
+      <main className={dm_sans.className}>{children}</main>
       <Footer />
     </>
   );

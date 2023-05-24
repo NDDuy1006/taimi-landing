@@ -1,19 +1,5 @@
 const theme = require("./config/theme.json");
 
-let fontPrimary, fontPrimaryType, fontSecondary, fontSecondaryType;
-if (theme.fonts.font_family.primary) {
-  fontPrimary = theme.fonts.font_family.primary
-    .replace(/\+/g, " ")
-    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
-  fontPrimaryType = theme.fonts.font_family.primary_type;
-}
-if (theme.fonts.font_family.secondary) {
-  fontSecondary = theme.fonts.font_family.secondary
-    .replace(/\+/g, " ")
-    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
-  fontSecondaryType = theme.fonts.font_family.secondary_type;
-}
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -76,17 +62,13 @@ module.exports = {
       },
       fontWeight: {
         h1: 700,
-        h2: 500,
+        h2: 700,
         h3: 500,
         subtit_1: 400,
         subtit_2: 500,
         button_1: 500,
         button_2: 500,
         body: 400,
-      },
-      fontFamily: {
-        primary: [fontPrimary, fontPrimaryType],
-        secondary: [fontSecondary, fontSecondaryType],
       },
     },
   },

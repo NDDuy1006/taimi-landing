@@ -7,7 +7,7 @@ banner:
   image: /images/hero-banner.png
   button:
     enable: true
-    label: "Try Tami for free"
+    label: "Try Taimi for FREE"
     link: "https://demo.taimi.dision.office/"
 
 # highlight feature in homepage

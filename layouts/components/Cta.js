@@ -6,11 +6,11 @@ function Cta({ cta }) {
 
   return (
     <section className="section">
-      <div className="py-8 mb-14 container rounded-xl shadow bg-primary">
+      <div className="py-8 mb-14 container rounded-lg shadow bg-primary">
         <div className="row mx-auto items-center justify-center">
           <div className="text-center max-w-[640px]">
             <h2 className="text-4xl text-white">{title}</h2>
-            {content && <p className="mt-4 text-white">{markdownify(content)}</p>}
+            {content && <p className="mt-1 text-white">{markdownify(content)}</p>}
             {cta.button.enable && (
               <Link
                 className="btn btn-primary z-0 py-[14px] mt-4 text-button_2 font-button_2"

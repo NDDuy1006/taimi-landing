@@ -43,6 +43,7 @@ module.exports = {
         "h2-sm": "28px",
         h3: "20px",
         "h3-sm": "16px",
+        "h3-l": "18px",
         subtit_1: "20px",
         subtit_2: "16px",
         button_1: "20px",

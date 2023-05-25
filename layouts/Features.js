@@ -24,12 +24,12 @@ function Features({ data }) {
                 <div
                   className={`flex flex-col justify-center md:w-2/5 service-content mt-5 md:mt-0 ${!isOdd ? "md:order-1" : "md:order-2"} ${!isOdd ? "md:mr-24" : "md:ml-24"}`}
                 >
-                  <h2 className="mb-4 text-h2 font-h2 leading-h2 text-secondary">
+                  <h2 className="mb-8 text-h2 font-h2 leading-h2 text-secondary">
                     {feature?.number} <br/>
                     {feature?.title}
                   </h2>
                   {
-                    feature.contents.map((content, index) => <div key={index} className="flex flex-row my-2 md:my-4 lg:my-6">
+                    feature.contents.map((content, index) => <div key={index} className="flex flex-row my-4">
                       <Image
                         src={content.icon}
                         width={48}

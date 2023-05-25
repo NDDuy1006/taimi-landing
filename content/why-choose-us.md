@@ -35,4 +35,14 @@ call_to_action:
     enable: true
     label: "Get started"
     link: "#"
+  button_window:
+    label: "Taimi for windows"
+    icons: "/images/windows-icon"
+    link: "#"
+  button_linux:
+    label: "Taimi for Linux"
+    icon: "/images/linux-icon"
+    link: "#"
+  
+
 ---

@@ -35,7 +35,7 @@ const Footer = () => {
               <Image
                 className="cursor-pointer"
                 src={"/images/ButtonLinux.svg"}
-                width={204}
+                width={190}
                 height={52}
                 alt="Linux"
               />

@@ -26,7 +26,7 @@ const Home = ({ frontmatter }) => {
                 <span className="text-secondary">{banner.highlight} </span>
                 {banner.title}
               </h1>
-              <p className="tracking-wide mt-4 text-subtit_1 font-subtit_1 leading-subtit_1 text-light text-center">{markdownify(banner.content)}</p>
+              <p className="mt-4 text-subtit_1 font-subtit_1 leading-subtit_1 text-light text-center">{markdownify(banner.content)}</p>
               <br />
               {banner.button.enable && (
                 <Link
@@ -50,7 +50,7 @@ const Home = ({ frontmatter }) => {
             <h2 className="text-h2 font-h2 leading-h2 text-secondary">{markdownify(feature.title)}</h2>
             <p className="mt-3 text-base font-body leading-base text-light lg:w-[70%] mx-auto">{feature.subTitle}</p>
           </div>
-          <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-1 lg:grid-cols-3">
+          <div className="my-12 grid gap-x-8 gap-y-6 sm:grid-cols-1 lg:grid-cols-3">
             {feature.features.map((item, i) => (
               <div
                 className="feature-card pt-0"

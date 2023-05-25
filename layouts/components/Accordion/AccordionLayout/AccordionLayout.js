@@ -8,9 +8,9 @@ const AccordionLayout = ({ title, children, index, activeIndex, setActiveIndex }
     <div className='p-4'>
       <div onClick={() => handleSetIndex(index)} className='flex w-full justify-between cursor-pointer'>
         <div className='flex'>
-          <div className={`font-medium text-xl transition-all ${activeIndex === index ? 'text-primary' : 'text-dark'}`}>
+          <h3 className={`text-h3 leading-h3 font-h3 transition-all ${activeIndex === index ? 'text-primary' : 'text-dark'}`}>
             {title}
-          </div>
+          </h3>
         </div>
         <div className={`flex items-center justify-center transition-transform duration-200 ease-in-out ${activeIndex === index && "rotate-[-180deg]"}`}>
           <Image
@@ -22,7 +22,7 @@ const AccordionLayout = ({ title, children, index, activeIndex, setActiveIndex }
         </div>
       </div>
 
-      <div className={`h-0 text-left text-light leading-6 ${activeIndex === index && "h-28 pt-4"} overflow-hidden transition-[height]`}>
+      <div className={`h-0 text-left text-light leading-6 font-body ${activeIndex === index && "h-28 pt-4"} overflow-hidden transition-[height]`}>
         {children}
       </div>
       {/* {(activeIndex === index) && (

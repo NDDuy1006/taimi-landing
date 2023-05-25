@@ -9,6 +9,25 @@
       "url": "/why-choose-us"
     }
   ],
+  "footer0": [
+    {
+      "name": "Product",
+      "menu": [
+        {
+          "text": "Benefits",
+          "url": "#"
+        },
+        {
+          "text": "Price",
+          "url": "#"
+        },
+        {
+          "text": "Updates",
+          "url": "#"
+        }
+      ]
+    }
+  ],
   "footer1": [
     {
       "name": "Features",
@@ -43,35 +62,35 @@
       }]
     }],
     "footer2": [{
-      "name": "Product",
+      "name": "Support",
       "menu": [
         {
-          "text": "Benefits",
+          "text": "Getting started",
           "url": "#"
         },
         {
-          "text": "Price",
+          "text": "Help Center",
           "url": "#"
         },
         {
-          "text": "Download",
+          "text": "Policy",
           "url": "#"
         }
       ]
     },
     {
-      "name": "Support",
+      "name": "Company",
       "menu": [
         {
-          "text": "Benefits",
+          "text": "About",
           "url": "#"
         },
         {
-          "text": "Price",
+          "text": "Contact us",
           "url": "#"
         },
         {
-          "text": "Download",
+          "text": "Blogs",
           "url": "#"
         }
       ]

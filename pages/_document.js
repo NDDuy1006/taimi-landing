@@ -28,7 +28,7 @@ const Document = () => {
           content="#000"
         />
       </Head>
-      <body>
+      <body className="tracking-[0.005em]">
         <Main />
         {/* <TwSizeIndicator /> */}
         <NextScript />

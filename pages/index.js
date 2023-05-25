@@ -83,7 +83,7 @@ const Home = ({ frontmatter }) => {
                 >
                   <div className="mt-4 text-left text-[black]">
                     <div className="text-h2 font-h2 leading-h2">{item.title}</div>
-                    <div className="text-base font-body leading-base text-light">{item.subTitle}</div>
+                    <div className="text-base font-body leading-base text-light mt-1">{item.subTitle}</div>
                     <Link
                       className="btn btn-sub-primary z-0 p-2 mt-4"
                       href={item.href}

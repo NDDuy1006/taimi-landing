@@ -42,7 +42,7 @@ function Features({ data }) {
         <div className="container">
           <div className="text-center relative w-fit mx-auto">
             <h2 className="text-h2 font-h2 leading-h2 text-secondary">{markdownify(feedback.title)}</h2>
-            <p className="mt-3 text-[#4B555D] mx-auto">{feedback.description}</p>
+            <p className="mt-1 text-[#4B555D] mx-auto">{feedback.description}</p>
           </div>
           <div className="row text-center">
             <div className="flex flex-row flex-wrap mt-10 justify-between">

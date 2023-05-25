@@ -2,7 +2,6 @@ import Cta from "@layouts/components/Cta";
 import Image from "next/image";
 import { markdownify } from "@lib/utils/textConverter";
 import YoutubePlayer from "./components/YoutubePlayer";
-import Link from "next/link";
 
 function Features({ data }) {
   const { call_to_action, feedback } = data.frontmatter;

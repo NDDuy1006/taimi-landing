@@ -7,7 +7,7 @@ banner:
   image: /images/hero-banner.png
   button:
     enable: true
-    label: "Try Tami for free"
+    label: "Try Taimi for FREE"
     link: "#"
 
 # highlight feature in homepage

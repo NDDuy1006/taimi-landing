@@ -30,7 +30,7 @@ const Home = ({ frontmatter }) => {
               <br />
               {banner.button.enable && (
                 <Link
-                  className="btn btn-seccondary z-0 mb-12 mx-auto py-[20px] w-[180px]"
+                  className="btn btn-seccondary z-0 mb-12 mx-auto px-3 py-[20px] w-[182px] text-h3-l font-h3"
                   href={banner.button.link}
                   rel={banner.button.rel}
                 >
@@ -114,7 +114,7 @@ const Home = ({ frontmatter }) => {
             <h2 className="text-h2 font-h2 leading-h2 text-secondary">{markdownify(solution.title)}</h2>
             <p className="mt-3 text-base font-body leading-base text-light">{solution.subTitle}</p>
           </div>
-          <div className="row mt-10 text-center">
+          <div className="row mt-12 text-center">
             <div className="flex flex-col lg:flex-row">
               <div className="lg:w-[69%]">
                 <Image

@@ -18,9 +18,9 @@ const Home = ({ frontmatter }) => {
   return (
     <Base title={title}>
       {/* Banner */}
-      <section className="section pb-[50px]">
+      <section className="section pt-16">
         <div className="container">
-          <div className="max-w-[855px] mx-auto bg-[url('/images/bg-image.png')] bg-cover">
+          <div className="max-w-[855px] mx-auto bg-[url('/images/bg-image.png')] bg-contain bg-no-repeat">
             <div className="flex flex-col">
               <h1 className="text-h1 font-h1 leading-h1 text-dark text-center">
                 <span className="text-secondary">{banner.highlight} </span>
@@ -30,7 +30,7 @@ const Home = ({ frontmatter }) => {
               <br />
               {banner.button.enable && (
                 <Link
-                  className="btn btn-seccondary z-0 mb-12 mx-auto px-3 text-h3-l font-h3"
+                  className="btn btn-seccondary z-0 mb-12 mx-auto px-3 text-h3-l font-h3 flex items-center justify-center"
                   style={{ marginTop: '20px', height: '52px', width: '182px' }}
                   href={banner.button.link}
                   rel={banner.button.rel}
@@ -49,7 +49,7 @@ const Home = ({ frontmatter }) => {
         <div className="container">
           <div className="text-center relative w-fit mx-auto">
             <h2 className="text-h2 font-h2 leading-h2 text-secondary">{markdownify(feature.title)}</h2>
-            <p className="mt-3 text-base font-body leading-base text-light lg:w-[70%] mx-auto">{feature.subTitle}</p>
+            <p className="mt-1 text-base font-body leading-base text-light lg:w-[70%] mx-auto">{feature.subTitle}</p>
           </div>
           <div className="my-12 grid gap-x-8 gap-y-6 sm:grid-cols-1 lg:grid-cols-3">
             {feature.features.map((item, i) => (
@@ -67,7 +67,7 @@ const Home = ({ frontmatter }) => {
                 )}
                 <div className="mt-4 text-left">
                   {markdownify(item.name, "h3", "text-h3 font-h3 leading-h3 text-dark")}
-                  <p className="mt-3 text-base font-body leading-base text-light">{item.content}</p>
+                  <p className="mt-4 text-base font-body leading-base text-light">{item.content}</p>
                 </div>
               </div>
             ))}
@@ -86,11 +86,11 @@ const Home = ({ frontmatter }) => {
                     <div className="text-h2 font-h2 leading-h2">{item.title}</div>
                     <div className="text-base font-body leading-base text-light mt-1">{item.subTitle}</div>
                     <Link
-                      className="btn btn-sub-primary z-0 p-2 mt-4"
+                      className="btn btn-sub-primary z-0 p-2 mt-4 h-8"
                       href={item.href}
                     >
-                      <div className="flex flex-row relative pr-4">
-                        {item.buttonText}
+                      <div className="flex flex-row mt-[2px] relative pr-4">
+                        <div className="font-h3">{item.buttonText}</div>
                         <Image
                           className="w-2 absolute top-0 right-0"
                           src={"/images/btn-icon.png"}
@@ -113,9 +113,9 @@ const Home = ({ frontmatter }) => {
         <div className="container">
           <div className="text-center relative w-fit mx-auto">
             <h2 className="text-h2 font-h2 leading-h2 text-secondary">{markdownify(solution.title)}</h2>
-            <p className="mt-3 text-base font-body leading-base text-light">{solution.subTitle}</p>
+            <p className="mt-1 text-base font-body leading-base text-light">{solution.subTitle}</p>
           </div>
-          <div className="row mt-12 text-center">
+          <div className="row mt-10 text-center">
             <div className="flex flex-col lg:flex-row">
               <div className="lg:w-[69%]">
                 <Image

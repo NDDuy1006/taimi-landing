@@ -1,8 +1,8 @@
 import YoutubePlayer from "../components/YoutubePlayer";
-import Button from "./Button";
+import DownloadButton from "./DownloadButton";
 
 const shortcodes = {
-  Button,
+  DownloadButton,
   YoutubePlayer,
 };
 

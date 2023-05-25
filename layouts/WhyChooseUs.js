@@ -2,6 +2,7 @@ import Cta from "@layouts/components/Cta";
 import Image from "next/image";
 import { markdownify } from "@lib/utils/textConverter";
 import YoutubePlayer from "./components/YoutubePlayer";
+import DownloadButton from "./shortcodes/DownloadButton";
 
 function Features({ data }) {
   const { call_to_action, feedback } = data.frontmatter;
@@ -18,26 +19,26 @@ function Features({ data }) {
         </h2>
         <p className="font-subtit_1 text-subtit_2 leading-subtit_2 mb-4">Easy started with simple steps</p>
         <div className="flex flex-row justify-center mb-14">
-          <Image
-            className="mr-6 cursor-pointer"
-            src={"/images/ButtonWindows.svg"}
-            width={204}
-            height={52}
-            alt="Windows"
-          />
-          <Image
-            className="cursor-pointer"
-            src={"/images/ButtonLinux.svg"}
-            width={204}
-            height={52}
-            alt="Linux"
+          <div className="mr-8">
+            <DownloadButton
+              image={"/images/LogoWindow.svg"}
+              href={"#"}
+              text={"Taimi for Windows"}
+              alt="button icon"
+            />
+          </div>
+          <DownloadButton
+            image={"/images/LogoLinux.svg"}
+            href={"#"}
+            text={"Taimi for Linux"}
+            alt="button icon"
           />
         </div>
         <YoutubePlayer id="jDiUfKtlmW4" title="What is Clockify?" />
       </section>
 
       {/* Feedback */}
-      <section className="section bg-[#F4F4F6]">
+      <section className="section bg-[#F4F4F6] pb-0 pt-10 mb-24">
         <div className="container">
           <div className="text-center relative w-fit mx-auto">
             <h2 className="text-h2 font-h2 leading-h2 text-secondary">{markdownify(feedback.title)}</h2>

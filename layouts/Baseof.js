@@ -96,10 +96,10 @@ const Base = ({
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <Header />
+      <Header className={dm_sans.className} />
       {/* main site */}
       <main className={dm_sans.className}>{children}</main>
-      <Footer />
+      <Footer className={dm_sans.className} />
     </>
   );
 };

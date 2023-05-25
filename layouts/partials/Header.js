@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 
-const Header = () => {
+const Header = ({ className }) => {
   //router
   const router = useRouter();
 
@@ -20,7 +20,7 @@ const Header = () => {
   const { enable, label, link } = config.nav_button;
 
   return (
-    <header className="header sticky top-0 z-50">
+    <header className={`header sticky top-0 z-50 ${className}`}>
       <nav className="navbar container py-4">
         {/* logo */}
         <div className="order-0">

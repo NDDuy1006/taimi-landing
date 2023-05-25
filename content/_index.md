@@ -8,7 +8,7 @@ banner:
   button:
     enable: true
     label: "Try Tami for free"
-    link: "#"
+    link: "https://demo.taimi.dision.office/"
 
 # highlight feature in homepage
 feature: 
@@ -71,5 +71,5 @@ call_to_action:
   button:
     enable: true
     label: "Try now"
-    link: "#"
+    link: "https://demo.taimi.dision.office/"
 ---

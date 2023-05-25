@@ -67,5 +67,5 @@ call_to_action:
   button:
     enable: true
     label: "Try now"
-    link: "#"
+    link: "https://demo.taimi.dision.office/"
 ---

@@ -9,7 +9,7 @@ function Features({ data }) {
 
   return (
     <>
-      <section className="section text-center bg-primary/10 mb-2 pb-7">
+      <section className="section text-center bg-primary/10 mb-2 pt-9 pb-9">
         <h1 className="text-h1 font-h1 leading-h1 text-dark">Time tracking <span className="text-secondary">cloud-based solution</span> <br/> available anywhere - everything</h1>
       </section>
 

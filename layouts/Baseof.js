@@ -7,8 +7,9 @@ import { useRouter } from "next/router";
 import { DM_Sans } from '@next/font/google';
 
 const dm_sans = DM_Sans({
-  weight: '400',
-  subsets: ['sans-serif'],
+  weight: ['400', '500', '700'],
+  style: ['normal'],
+  subsets: ['latin'],
 });
 
 const Base = ({

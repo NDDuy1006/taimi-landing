@@ -33,7 +33,7 @@
 }
 
 .nav-link {
-  @apply leading-4 text-dark md:mr-8 hover:text-primary h-full;
+  @apply leading-5 text-dark md:mr-8 hover:text-primary h-full;
 
   &-active {
     @apply text-primary hover:text-primary;

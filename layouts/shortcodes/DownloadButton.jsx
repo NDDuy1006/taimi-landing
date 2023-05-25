@@ -4,7 +4,7 @@ import Image from "next/image";
 const DownloadButton = ({ href, rel, image, text }) => {
   return (
     <Link
-      href={href} target="_blank" rel={`noopener noreferrer ${rel?(rel==="follow"?"":rel):"nofollow"}`} 
+      href={href} rel={`noopener noreferrer ${rel?(rel==="follow"?"":rel):"nofollow"}`} 
       style={{
         display: 'flex',
         flexDirection: 'row',

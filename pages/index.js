@@ -31,7 +31,7 @@ const Home = ({ frontmatter }) => {
               {banner.button.enable && (
                 <Link
                   className="btn btn-seccondary z-0 mb-12 mx-auto px-3 text-h3-l font-h3 flex items-center justify-center"
-                  style={{ marginTop: '20px', height: '52px', width: '182px' }}
+                  style={{ marginTop: '32px', marginBottom: '56px', height: '52px', width: '182px' }}
                   href={banner.button.link}
                   rel={banner.button.rel}
                 >

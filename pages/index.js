@@ -30,7 +30,8 @@ const Home = ({ frontmatter }) => {
               <br />
               {banner.button.enable && (
                 <Link
-                  className="btn btn-seccondary z-0 mb-12 mx-auto py-[20px] w-[180px]"
+                  className="btn btn-seccondary z-0 mb-12 mx-auto flex items-center justify-center"
+                  style={{ marginTop: '20px', height: '52px', width: '180px' }}
                   href={banner.button.link}
                   rel={banner.button.rel}
                 >

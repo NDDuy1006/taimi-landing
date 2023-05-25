@@ -25,7 +25,7 @@ feedback:
       avatar: "/images/AvatarFloyd.png"
       comment: "Taimi is the best time tracking app I've ever used."
     - name: "Lane"
-      title: "Tourism Operations Officer"
+      title: "Tourism Operations"
       avatar: "/images/AvatarLane.png"
       comment: "I would definitely recommend it to anyone looking for a time tracking app."
 call_to_action:

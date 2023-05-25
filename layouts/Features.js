@@ -1,13 +1,12 @@
 import Cta from "@layouts/components/Cta";
 import Image from "next/image";
-import { markdownify } from "@lib/utils/textConverter";
 
 function Features({ data }) {
-  const { call_to_action, features, title } = data.frontmatter;
+  const { call_to_action, features } = data.frontmatter;
 
   return (
     <>
-      <section className="section text-center bg-primary/10 mb-5 pt-9 pb-9">
+      <section className="section text-center bg-primary/10 mb-16 pt-9 pb-9">
         <h1 className="text-h1 font-h1 leading-h1 text-dark">Unlock your full potential <br/> Explore the <span className="text-secondary">precious time</span> management</h1>
       </section>
       {features.map((feature, index) => {

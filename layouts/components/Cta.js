@@ -13,7 +13,7 @@ function Cta({ cta }) {
             {content && <p className="mt-4 text-white">{markdownify(content)}</p>}
             {cta.button.enable && (
               <Link
-                className="btn btn-primary z-0 py-[14px] mt-4"
+                className="btn btn-primary z-0 py-[14px] mt-4 text-button_2 font-button_2"
                 href={cta.button.link}
               >
                 {cta.button.label}

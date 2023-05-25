@@ -14,6 +14,10 @@
   @apply  bg-white text-primary border-primary z-[1]  rounded-[4px] relative transition-all;
 }
 
+.btn-dark {
+  @apply  bg-dark text-white z-[1]  rounded-[4px] relative transition-all;
+}
+
 .btn-outline-primary {
   @apply relative text-dark border-0 bg-transparent rounded-[30px] hover:border-transparent hover:text-primary;
 

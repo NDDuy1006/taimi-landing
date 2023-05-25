@@ -25,20 +25,20 @@ const Footer = () => {
             <div className="mb-2 text-light font-body leading-6">The ideal solution for time tracking and productivity insights. </div>
           </div>
           <div className="flex flex-row">
-              <Image
-                className="mr-6 cursor-pointer"
-                src={"/images/ButtonWindows.svg"}
-                width={204}
-                height={52}
-                alt="Windows"
-              />
-              <Image
-                className="cursor-pointer"
-                src={"/images/ButtonLinux.svg"}
-                width={190}
-                height={52}
-                alt="Linux"
-              />
+            <Image
+              className="mr-6 cursor-pointer"
+              src={"/images/ButtonWindows.svg"}
+              width={204}
+              height={52}
+              alt="Windows"
+            />
+            <Image
+              className="cursor-pointer"
+              src={"/images/ButtonLinux.svg"}
+              width={204}
+              height={52}
+              alt="Linux"
+            />
           </div>
         </div>
         <div className="flex flex-col lg:flex-row justify-between">

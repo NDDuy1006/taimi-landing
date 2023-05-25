@@ -48,6 +48,7 @@ module.exports = {
         button_1: "20px",
         button_2: "16px",
         body: "16px",
+        body_sm: "14px",
       },
       lineHeight: {
         base: "24px",

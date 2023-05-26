@@ -21,7 +21,7 @@ const Footer = ({ className }) => {
                 alt="footer logo"
               />
             </Link>
-            <div className="my-2 text-h3 text-secondary font-h3 leading-h3">Tracking time on the go. Try Taimi now!</div>
+            <div className="my-2 text-h3-sm md:text-h3 text-secondary font-h3 leading-h3-sm md:leading-h3">Tracking time on the go. Try Taimi now!</div>
             <div className="text-light font-body leading-6">The ideal solution for time tracking and productivity insights. </div>
           </div>
           <div className="flex flex-row mb-0 lg:mt-auto mt-6">
@@ -47,7 +47,7 @@ const Footer = ({ className }) => {
             {footer0.map((col, index) => {
               return (
                 <div className={`text-dark mb-12 col-6 ${index === 1 && "self-end"}`} key={col.name}>
-                  {markdownify(col.name, "h3", "text-dark text-h3 font-h3 leading-h3")}
+                  {markdownify(col.name, "h3", "text-dark text-h3-sm md:text-h3 font-h3 leading-h3-sm md:leading-h3")}
                   <ul className="mt-4">
                     {col?.menu.map((item) => (
                       <li className="mb-1 text-[#4B555D]" key={item.text}>
@@ -67,7 +67,7 @@ const Footer = ({ className }) => {
             {footer1.map((col, index) => {
               return (
                 <div className={`text-dark mb-12 col-6 ${index === 1 && "self-end"}`} key={col.name}>
-                  {markdownify(col.name, "h3", "text-dark text-h3 font-h3 leading-h3")}
+                  {markdownify(col.name, "h3", "text-dark text-h3-sm md:text-h3 font-h3 leading-h3-sm md:leading-h3")}
                   <ul className="mt-4">
                     {col?.menu.map((item) => (
                       <li className="mb-1 text-[#4B555D]" key={item.text}>
@@ -86,7 +86,7 @@ const Footer = ({ className }) => {
             {footer2.map((col) => {
               return (
                 <div className={`text-dark mb-12 col-6`} key={col.name}>
-                  {markdownify(col.name, "h3", "text-dark text-h3 font-h3 leading-h3")}
+                  {markdownify(col.name, "h3", "text-dark text-h3-sm md:text-h3 font-h3 leading-h3-sm md:leading-h3")}
                   <ul className="mt-4">
                     {col?.menu.map((item) => (
                       <li className="mb-1 text-[#4B555D]" key={item.text}>

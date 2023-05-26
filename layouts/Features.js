@@ -7,7 +7,7 @@ function Features({ data }) {
   return (
     <>
       <section className="section text-center bg-primary/10 mb-16 pt-9 pb-9">
-        <h1 className="text-h1 font-h1 leading-h1 text-dark">Unlock your full potential <br/> Explore the <span className="text-secondary">precious time</span> management</h1>
+        <h1 className="text-dark">Unlock your full potential <br/> Explore the <span className="text-secondary">precious time</span> management</h1>
       </section>
       {features.map((feature, index) => {
         const isOdd = index % 2 > 0;
@@ -23,7 +23,7 @@ function Features({ data }) {
                 <div
                   className={`flex flex-col justify-center md:w-2/5 service-content mt-5 md:mt-0 ${!isOdd ? "md:order-1" : "md:order-2"} ${!isOdd ? "md:mr-24" : "md:ml-24"}`}
                 >
-                  <h2 className="mb-8 text-h2 font-h2 leading-h2 text-secondary">
+                  <h2 className="mb-8 text-secondary">
                     {feature?.number} <br/>
                     {feature?.title}
                   </h2>

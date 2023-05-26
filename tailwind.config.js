@@ -54,8 +54,11 @@ module.exports = {
       lineHeight: {
         base: "24px",
         h1: "64px",
+        "h1-sm": "48px",
         h2: "44px",
+        "h2-sm": "36px",
         h3: "28px",
+        "h3-sm": "24px",
         subtit_1: "32px",
         subtit_2: "24px",
         button_1: "0",

@@ -23,7 +23,7 @@ const DownloadButton = ({ href, rel, image, text }) => {
         height={28}
         alt="btn-icon"
       />
-      <div className="text-h3-l font-h3 leading-none text-white">{text}</div>
+      <div className="text-h3-sm md:text-h3-l font-h3 leading-none text-white">{text}</div>
     </Link>
   )
 }

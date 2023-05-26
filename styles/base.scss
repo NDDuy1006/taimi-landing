@@ -6,30 +6,17 @@ body {
   @apply bg-body font-normal leading-relaxed text-dark;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @apply font-bold leading-tight text-primary;
+h1 {
+  @apply text-h1-sm md:text-h1 font-h1 leading-h1-sm md:leading-h1;
 }
 
-h1,
-.h1 {
-  @apply text-h1-sm md:text-h1;
+h2 {
+  @apply text-h2-sm md:text-h2 font-h2 leading-h2-sm md:leading-h2;
 }
 
-h2,
-.h2 {
-  @apply text-h2-sm md:text-h2;
+h3 {
+  @apply text-h3-sm md:text-h3 font-h3 leading-h3-sm md:leading-h3;
 }
-
-h3,
-.h3 {
-  @apply text-h3-sm md:text-h3;
-}
-
 
 code {
   @apply before:hidden after:hidden;

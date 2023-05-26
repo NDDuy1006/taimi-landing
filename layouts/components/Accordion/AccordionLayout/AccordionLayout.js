@@ -8,7 +8,7 @@ const AccordionLayout = ({ title, children, index, activeIndex, setActiveIndex }
     <div className='p-4 cursor-pointer' onClick={() => handleSetIndex(index)}>
       <div className='flex w-full justify-between cursor-pointer'>
         <div className='flex'>
-          <h3 className={`text-h3 leading-h3 font-h3 transition-all ${activeIndex === index ? 'text-primary' : 'text-dark'}`}>
+          <h3 className={`transition-all ${activeIndex === index ? 'text-primary' : 'text-dark'}`}>
             {title}
           </h3>
         </div>

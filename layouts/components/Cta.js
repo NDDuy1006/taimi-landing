@@ -9,7 +9,7 @@ function Cta({ cta }) {
       <div className="py-8 container rounded-xl shadow bg-primary">
         <div className="row mx-auto items-center justify-center">
           <div className="text-center max-w-[640px]">
-            <h2 className="text-4xl text-white">{title}</h2>
+            <h2 className="text-white">{title}</h2>
             {content && <p className="mt-1 text-white">{markdownify(content)}</p>}
             {cta.button.enable && (
               <Link

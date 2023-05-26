@@ -21,7 +21,7 @@ const Header = ({ className }) => {
 
   return (
     <header className={`header sticky top-0 z-50 ${className}`}>
-      <nav className="navbar container py-4">
+      <nav className="navbar container py-5 md:py-4">
         {/* logo */}
         <div className="order-0">
           <Logo src={header_logo} />

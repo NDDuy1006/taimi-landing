@@ -1,9 +1,5 @@
 html {
-  @apply text-base;
-}
-
-body {
-  @apply bg-body font-normal leading-relaxed text-dark;
+  @apply font-base text-base-sm leading-base-sm md:text-base md:leading-base  text-dark;
 }
 
 h1 {
@@ -20,4 +16,16 @@ h3 {
 
 code {
   @apply before:hidden after:hidden;
+}
+
+.subtit_1 {
+  @apply text-subtit_1-sm font-subtit_1 leading-subtit_1 md:text-subtit_1;
+}
+
+.button_1 {
+  @apply text-button_1-sm md:text-button_1 font-button_1 leading-button_1;
+}
+
+.body {
+  @apply text-body-sm md:text-body font-body leading-body;
 }

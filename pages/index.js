@@ -18,19 +18,19 @@ const Home = ({ frontmatter }) => {
   return (
     <Base title={title}>
       {/* Banner */}
-      <section className="section pt-16">
+      <section className="section pt-8">
         <div className="container">
-          <div className="max-w-[855px] mx-auto bg-[url('/images/bg-image.png')] bg-contain bg-no-repeat">
+          <div className="max-w-[855px] mx-auto mb-6 bg-[url('/images/bg-image.png')] bg-contain bg-no-repeat">
             <div className="flex flex-col">
-              <h1 className="text-dark text-center">
+              <h1 className="text-dark text-center mt-8">
                 <span className="text-secondary">{banner.highlight} </span>
                 {banner.title}
               </h1>
-              <p className="mt-4 text-subtit_1 font-subtit_1 leading-subtit_1 text-light text-center">{markdownify(banner.content)}</p>
+              <p className="mt-4 subtit_1 text-light text-center">{markdownify(banner.content)}</p>
               <br />
               {banner.button.enable && (
                 <Link
-                  className="btn btn-seccondary z-0 mb-12 mx-auto px-3 text-h3-sm md:text-h3-l font-h3 flex items-center justify-center"
+                  className="btn btn-seccondary z-0 mb-7 mx-auto px-3 flex items-center justify-center button_1"
                   style={{ marginTop: '32px', height: '52px', width: '182px' }}
                   href={banner.button.link}
                   rel={banner.button.rel}
@@ -49,9 +49,9 @@ const Home = ({ frontmatter }) => {
         <div className="container">
           <div className="text-center relative w-fit mx-auto">
             <h2 className="text-secondary">{markdownify(feature.title)}</h2>
-            <p className="mt-1 text-base font-body leading-base text-light lg:w-[70%] mx-auto">{feature.subTitle}</p>
+            <p className="mt-1 body text-light lg:w-[70%] mx-auto">{feature.subTitle}</p>
           </div>
-          <div className="my-12 grid gap-x-8 gap-y-6 sm:grid-cols-1 lg:grid-cols-3">
+          <div className="my-12 grid gap-x-8 gap-y-8 sm:grid-cols-1 md:grid-cols-3">
             {feature.features.map((item, i) => (
               <div
                 className="feature-card pt-0"
@@ -66,8 +66,8 @@ const Home = ({ frontmatter }) => {
                   />
                 )}
                 <div className="mt-4 text-left">
-                  {markdownify(item.name, "h3", "text-h3-sm md:text-h3 font-h3 leading-h3-sm md:leading-h3 text-dark")}
-                  <p className="mt-4 text-base font-body leading-base text-light">{item.content}</p>
+                  <h3 className="text-dark">{item.name}</h3>
+                  <p className="mt-4 body text-light tracking-[-0.01em]">{item.content}</p>
                 </div>
               </div>
             ))}
@@ -113,7 +113,7 @@ const Home = ({ frontmatter }) => {
         <div className="container">
           <div className="text-center relative w-fit mx-auto">
             <h2 className="text-secondary">{markdownify(solution.title)}</h2>
-            <p className="mt-1 text-base font-body leading-base text-light">{solution.subTitle}</p>
+            <p className="mt-1 body text-light">{solution.subTitle}</p>
           </div>
           <div className="row mt-10 text-center">
             <div className="flex flex-col lg:flex-row">
